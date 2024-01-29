@@ -1,0 +1,27 @@
+{
+    "Eric Zheng": {
+        "id": "eric",
+        "description": "Eric's personal description goes here.",
+        "linkedin": "https://www.linkedin.com/in/eric-zheng-045976224/"
+    },
+    "Shiva Oswal": {
+        "id": "shiva",
+        "description": "Shiva's personal description goes here.",
+        "linkedin": "https://www.linkedin.com/in/shivaoswal/"
+    },
+    "Daniel Thinfen": {
+        "id": "daniel",
+        "description": "Daniel's personal description goes here.",
+        "linkedin": "https://www.linkedin.com/in/danielthinfen/"
+    },
+    "Jeffery Guo": {
+        "id": "jeffery",
+        "description": "Jeffery's personal description goes here.",
+        "linkedin": "https://www.linkedin.com/in/jeffery-guo-5b3218239/"
+    },
+    "Ethan Taylor": {
+        "id": "ethan",
+        "description": "Ethan's personal description goes here.",
+        "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
+    }
+}
