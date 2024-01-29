@@ -199,11 +199,6 @@
 		text-decoration: underline;
 	}
 
-	.signInButton {
-		background-color: var(--primary);
-		padding: 10px;
-	}
-
 	.dropdown-content {
 		display: none;
 		position: absolute;
