@@ -41,10 +41,10 @@
 					event => changeInformation(event.detail)
 				}
 			>
-				<img src="/gbmphotos/cmupoker.jpg" style="width: 80%; object-fit: fill;" alt="gbm photo"/>
-				<img src="/gbmphotos/edusession.jpg" style="width: 80%; object-fit: fill;" alt="gbm photo"/>
-				<img src="/gbmphotos/dougpolk.jpg" style="width: 80%; object-fit: fill;" alt="gbm photo"/>
-				<img src="/gbmphotos/boba.jpg" style="width: 80%; object-fit: fill;" alt="gbm photo"/>
+				<img src="/gbmphotos/cmupoker.jpg" style="width: 80%; object-fit: fill;" alt="cmu poker club"/>
+				<img src="/gbmphotos/edusession.jpg" style="width: 80%; object-fit: fill;" alt="educational session"/>
+				<img src="/gbmphotos/dougpolk.jpg" style="width: 80%; object-fit: fill;" alt="doug polk at cmu"/>
+				<img src="/gbmphotos/boba.jpg" style="width: 80%; object-fit: fill;" alt="boba at GBM"/>
 			</Carousel>
 		</div>
 	</div>
