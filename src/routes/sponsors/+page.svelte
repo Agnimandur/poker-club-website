@@ -1,13 +1,18 @@
 <script>
-	import Title from '$lib/components/Title.svelte';
+  import NavBar from '$lib/components/NavBar.svelte';
 
 	import sponsors from "$lib/langs/sponsors.json"
 	let sponsor_entries = Object.entries(sponsors);
 </script>
 
-<Title title="SPONSORS" description="Meet the sponsors of Carnegie Poker Club" />
+<NavBar />
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+
+
 <section class="articles">
 	{#each sponsor_entries as [name,company]}
 		<article>

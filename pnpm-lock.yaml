@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@slidy/svelte':
+    specifier: ^3.4.4
+    version: 3.4.4(svelte@3.59.2)
+  '@splidejs/svelte-splide':
+    specifier: ^0.2.9
+    version: 0.2.9
   '@sveltejs/adapter-vercel':
     specifier: ^3.1.0
     version: 3.1.0(@sveltejs/kit@1.30.3)
@@ -31,6 +37,9 @@ devDependencies:
   '@playwright/test':
     specifier: ^1.40.1
     version: 1.40.1
+  '@slidy/core':
+    specifier: ^3.7.6
+    version: 3.7.6
   '@types/cookie':
     specifier: ^0.5.4
     version: 0.5.4
@@ -433,6 +442,33 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: false
+
+  /@slidy/core@3.7.5:
+    resolution: {integrity: sha512-tF3BJQ1L/+nHX2dRddyTj7AhXHd/J6EAvKXcBkKgwdP9RXrM37wukDYzSpNRajMTkD8m269d+LjnQzXDAT9qHw==}
+    dev: false
+
+  /@slidy/core@3.7.6:
+    resolution: {integrity: sha512-xIhub3GZ776FXRfpzc16txmUV7eToi6wTk2oRluivR5zoDgZw67AD09DkLTB3fNfTt3obNuL2d+N+9I4NeHJoA==}
+    dev: true
+
+  /@slidy/svelte@3.4.4(svelte@3.59.2):
+    resolution: {integrity: sha512-g3cKetij2QXNngZWUAELPgdHiXzR4SJ9HpXFk2Q7WsW6o3wdc7KKQ3tqH6NfR5GM6P6QnxyXeHTAPJNkHWaNvg==}
+    peerDependencies:
+      svelte: 3 - 4
+    dependencies:
+      '@slidy/core': 3.7.5
+      svelte: 3.59.2
+    dev: false
+
+  /@splidejs/splide@4.1.4:
+    resolution: {integrity: sha512-5I30evTJcAJQXt6vJ26g2xEkG+l1nXcpEw4xpKh0/FWQ8ozmAeTbtniVtVmz2sH1Es3vgfC4SS8B2X4o5JMptA==}
+    dev: false
+
+  /@splidejs/svelte-splide@0.2.9:
+    resolution: {integrity: sha512-04ekJnDIJKEAhklKQMhkg4Yx0Ihtkk18eA9JeHPON0lDTngQxlOYdEYTJWH2UON45VxmVqoLHv04I++JphO36w==}
+    dependencies:
+      '@splidejs/splide': 4.1.4
     dev: false
 
   /@sveltejs/adapter-vercel@3.1.0(@sveltejs/kit@1.30.3):

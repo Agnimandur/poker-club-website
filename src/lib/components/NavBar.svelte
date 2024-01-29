@@ -73,7 +73,6 @@
 				</button>
 				<div class="dropdown-content">
 					<a href={`/events/gbm`}>General Body Meetings</a>
-					<a href={`/events/educational`}>Educational Sessions</a>
 					<a href={`/events/tournaments`}>Tournaments</a>
 					<a href={`/events/pokerai`}>Poker AI Contest</a>
 				</div>

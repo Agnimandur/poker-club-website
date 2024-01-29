@@ -13,6 +13,8 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
+		"@slidy/svelte": "^3.4.4",
+		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-vercel": "^3.1.0",
 		"@sveltejs/kit": "^1.30.3",
 		"svelte": "^3.59.2"
@@ -23,6 +25,7 @@
 		"@fullcalendar/daygrid": "^6.1.10",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.40.1",
+		"@slidy/core": "^3.7.6",
 		"@types/cookie": "^0.5.4",
 		"carbon-components-svelte": "^0.82.8",
 		"eslint": "^8.55.0",

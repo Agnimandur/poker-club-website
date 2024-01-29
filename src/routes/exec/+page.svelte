@@ -1,12 +1,15 @@
 <script>
-	import Title from '$lib/components/Title.svelte';
+	import NavBar from '$lib/components/NavBar.svelte';
 
 	import execs from "$lib/langs/execs.json"
 	let exec_entries = Object.entries(execs);
 </script>
 
-<Title title="EXEC BOARD" description="Meet the executive board of Carnegie Poker Club" />
-
+<NavBar />
+<br/>
+<br/>
+<br/>
+<br/>
 <ol>
 	{#each exec_entries as [name,exec]}
 		<li>

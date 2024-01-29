@@ -37,12 +37,12 @@
 		<div class="col">
 			<p><strong>General Body Meetings</strong></p>
 			<p>
-				Poker Club runs GBMs approximately once every two weeks. GBMs are a casual opportunity for club members to meet, eat pizza and drink boba, and of course play some poker! Sometimes we also run educational sessions to teach poker theory at our GBMs.
+				Poker Club runs GBMs approximately once every two weeks. GBMs are a casual opportunity for club members to meet, eat pizza and drink boba, and of course play some poker! Everyone is welcome, regardless of poker skill level! Sometimes we also run educational sessions to teach poker strategy at our GBMs.
 			</p>
 			<br />
 			<p><strong>Tournaments</strong></p>
 			<p>
-				Poker Club runs multiple poker tournaments every year. These tournaments usually have a buyin ranging from $0 to $50, and the top finishers get a share of the prizepool. We also run sponsored tournaments, and occasionally invite poker pros as guest speakers.
+				Poker Club runs multiple poker tournaments every year. These tournaments usually have a buyin ranging from $20 to $50, and the top finishers get a share of the prizepool. We also run sponsored tournaments, which are free to enter and have cash prizes! We also occasionally invite poker pros as guest speakers to our tournaments.
 			</p>
 			<br />
 			<br />

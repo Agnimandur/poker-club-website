@@ -1,5 +1,11 @@
 const eventData = [
     {
+        "title": "SIG Tournament",
+        "location": "Location TBD",
+        "date": "2024-03-16",
+        "time": "12:00:00"
+    },
+    {
         "title": "GBM",
         "location": "UC Connan",
         "date": "2024-01-27",
@@ -24,7 +30,7 @@ const eventData = [
         "time": "14:00:00"
     },
     {
-        "title": "Edu Session #2",
+        "title": "Edu Session",
         "location": "UC Connan",
         "date": "2023-10-08",
         "time": "14:00:00"
@@ -36,7 +42,7 @@ const eventData = [
         "time": "14:00:00"
     },
     {
-        "title": "Edu Session #1",
+        "title": "Edu Session",
         "location": "UC McKenna",
         "date": "2023-09-16",
         "time": "14:00:00"
@@ -47,6 +53,66 @@ const eventData = [
         "date": "2023-09-02",
         "time": "13:00:00"
     },
+    {
+        "title": "Xuan Liu Tournament",
+        "location": "UC Rangos",
+        "date": "2023-04-02",
+        "time": "12:00:00"
+    },
+    {
+        "title": "GBM",
+        "location": "UC Connan",
+        "date": "2023-03-12",
+        "time": "17:00:00"
+    },
+    {
+        "title": "Tournament",
+        "location": "UC Rangos",
+        "date": "2023-02-05",
+        "time": "12:00:00"
+    },
+    {
+        "title": "GBM",
+        "location": "Danforth Lounge",
+        "date": "2023-01-21",
+        "time": "12:00:00"
+    },
+    {
+        "title": "Citadel Tournament",
+        "location": "Tepper Simmons",
+        "date": "2022-10-08",
+        "time": "12:00:00"
+    },
+    {
+        "title": "GBM",
+        "location": "UC Connan",
+        "date": "2022-10-02",
+        "time": "18:00:00"
+    },
+    {
+        "title": "Edu Session",
+        "location": "UC Rangos",
+        "date": "2022-09-25",
+        "time": "14:30:00"
+    },
+    {
+        "title": "GBM",
+        "location": "UC Connan",
+        "date": "2022-09-17",
+        "time": "15:00:00"
+    },
+    {
+        "title": "Edu Session",
+        "location": "UC Connan",
+        "date": "2022-09-09",
+        "time": "19:00:00"
+    },
+    {
+        "title": "GBM",
+        "location": "UC Connan",
+        "date": "2022-09-02",
+        "time": "17:30:00"
+    }
 ];
 
 /**
