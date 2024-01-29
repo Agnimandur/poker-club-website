@@ -3,6 +3,11 @@
     src: url('/fonts/evil-empire.otf') format("opentype");
 }
 
+@font-face {
+    font-family: 'GilroyRegular';
+    src: url('/fonts/Gilroy-Regular.ttf') format("truetype");
+}
+
 ::-moz-selection {
     color: black;
     background-color: #f7c1c1;

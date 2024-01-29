@@ -12,7 +12,7 @@
 	let sponsor_entries = Object.entries(sponsors);
 </script>
 
-<Title title="Carnegie Poker Club" description="Poker at Carnegie Mellon University" height="calc(100vh - 70px)" />
+<Title title="CMU POKER CLUB" description="Poker at Carnegie Mellon University" height="calc(100vh - 70px)" />
 <div class="section row">
 	<div class="col">
 		<h2>About the Club</h2>
@@ -37,12 +37,12 @@
 		<div class="col">
 			<p><strong>General Body Meetings</strong></p>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+				Poker Club runs GBMs approximately once every two weeks. GBMs are a casual opportunity for club members to meet, eat pizza and drink boba, and of course play some poker! Sometimes we also run educational sessions to teach poker theory at our GBMs.
 			</p>
 			<br />
-			<p><strong>Sponsored Tournaments</strong></p>
+			<p><strong>Tournaments</strong></p>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+				Poker Club runs multiple poker tournaments every year. These tournaments usually have a buyin ranging from $0 to $50, and the top finishers get a share of the prizepool. We also run sponsored tournaments, and occasionally invite poker pros as guest speakers.
 			</p>
 			<br />
 			<br />

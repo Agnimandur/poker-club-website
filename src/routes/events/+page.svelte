@@ -3,7 +3,7 @@
 </script>
 
 <Title
-	title="Events"
+	title="EVENTS"
 	description="CMU Poker Club runs an exciting array of events!"
 />
 

@@ -35,14 +35,14 @@
 
 	.homeTitleDiv .box h1 {
 		text-align: center;
-		font-family: EvilEmpire, 'Inconsolata', monospace;
+		font-family: GilroyRegular, 'Inconsolata', monospace;
 		font-weight: 300;
 	}
 
 	.homeTitleDiv .box h4 {
 		margin: 0;
 		padding: 0;
-		font-family: EvilEmpire, 'Inconsolata', monospace;
+		font-family: GilroyRegular, 'Inconsolata', monospace;
 		font-size: 25px;
 		font-weight: 100;
 		text-align: center;

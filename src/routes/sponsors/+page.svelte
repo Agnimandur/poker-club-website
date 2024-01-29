@@ -5,7 +5,7 @@
 	let sponsor_entries = Object.entries(sponsors);
 </script>
 
-<Title title="Sponsors" description="Meet the sponsors of Carnegie Poker Club" />
+<Title title="SPONSORS" description="Meet the sponsors of Carnegie Poker Club" />
 <br/>
 <br/>
 <section class="articles">

@@ -5,7 +5,7 @@
 	let exec_entries = Object.entries(execs);
 </script>
 
-<Title title="Execs" description="Meet the executive board of Carnegie Poker Club" />
+<Title title="EXEC BOARD" description="Meet the executive board of Carnegie Poker Club" />
 
 <ol>
 	{#each exec_entries as [name,exec]}

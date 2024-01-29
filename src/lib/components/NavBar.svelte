@@ -40,7 +40,7 @@
 			<img src="/transparentpokerclublogo.png" alt="poker club logo" />
 			<h1 style="font-size: 24px;">
 				{#if windowWidth > TITLE_BREAKPOINT}
-					Carnegie Poker Club
+					CARNEGIE POKER CLUB
 				{:else}
 					PC
 				{/if}
@@ -74,7 +74,7 @@
 				<div class="dropdown-content">
 					<a href={`/events/gbm`}>General Body Meetings</a>
 					<a href={`/events/educational`}>Educational Sessions</a>
-					<a href={`/events/sigtournament`}>SIG Tournament</a>
+					<a href={`/events/tournaments`}>Tournaments</a>
 					<a href={`/events/pokerai`}>Poker AI Contest</a>
 				</div>
 			</div>
@@ -144,7 +144,7 @@
 	}
 
 	h1 {
-		font-family: EvilEmpire;
+		font-family: GilroyRegular;
 	}
 
 	img {
