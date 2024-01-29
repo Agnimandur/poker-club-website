@@ -1,10 +1,6 @@
 <script>
 	import 'carbon-components-svelte/css/g10.css';
 	import { page } from '$app/stores';
-	import { computePosition, autoUpdate, offset, shift, flip, arrow } from '@floating-ui/dom';
-	
-	import { storePopup } from '@skeletonlabs/skeleton';
-	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
 </script>
 
 <main>
