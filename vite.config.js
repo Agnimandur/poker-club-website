@@ -8,6 +8,9 @@ const config = {
 			// Allow serving files from one level up to the project root
 			allow: ['..']
 		}
+	},
+	optimizeDeps: {
+		include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']
 	}
 };
 

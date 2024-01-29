@@ -1,4 +1,5 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data;
+    import Title from '$lib/components/Title.svelte';
 </script>
+
+<Title title="POKER AI CONTEST" description="Details TBA!"/>
