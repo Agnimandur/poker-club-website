@@ -63,7 +63,7 @@ article a::after {
 /* basic article elements styling */
 article h2 {
   margin: 0 0 18px 0;
-  font-family: "Bebas Neue", cursive;
+  font-family: GilroyRegular;
   font-size: 1.9rem;
   letter-spacing: 0.06em;
   color: var(--title-color);

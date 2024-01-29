@@ -21,6 +21,13 @@ const eventData = [
         "url": "https://docs.google.com/forms/d/e/1FAIpQLScOcUc4Azf9H0fbSed4z6Aq2-G-CHymnVFm0K7_gQ7-XM_Sog/viewform"
     },
     {
+        "title": "CMU Winter Fair",
+        "location": "UC Rangos, Table 78",
+        "date": "2024-02-01",
+        "time": "17:00:00",
+        "url": "https://www.cmu.edu/student-affairs/slice/involvement/traditions/fair.html"
+    },
+    {
         "title": "GBM",
         "location": "UC Connan",
         "date": "2024-01-27",
