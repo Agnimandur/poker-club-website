@@ -46,7 +46,7 @@
 			</p>
 			<br />
 			<br />
-			<FancyButton title="View More" href="/events" />
+			<FancyButton title="View Calendar" href="/events" />
 		</div>
 		<div class="col">
 			<p><strong>2023 Heads Up Tournament Winner</strong></p>
