@@ -4,30 +4,25 @@
         "description": "Eric (Math '24) is the president of CMU Poker Club. He enjoys playing poker tournaments and solving math problems.",
         "linkedin": "https://www.linkedin.com/in/eric-zheng-045976224/"
     },
-    "Ethan Taylor": {
-        "id": "ethan",
-        "description": "Ethan (Business '24) helps improve the social aspect of poker club. He is also involved with the Undergraduate Consulting Club.",
-        "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
-    },
-    "David Krajewski": {
-        "id": "david",
-        "description": "David (CS '25) is the vice president of CMU Poker Club and president of the AEP fraternity.",
-        "linkedin": "https://www.linkedin.com/in/david-krajewski-06098b57/"
+    "Shiva Oswal": {
+        "id": "shiva",
+        "description": "Shiva (CS '26) is the director of education at poker club. He enjoys the analytical side of poker, and is interested in the burgeoning field of poker AI.",
+        "linkedin": "https://www.linkedin.com/in/shivaoswal/"
     },
     "Mason Stark": {
         "id": "mason",
         "description": "Mason (ECE '25) has been an active figure in CMU poker club since his freshman year, helping to facilitate and run club events. Outside of poker, he loves Hip Hop, skiing, mountain biking, and coding.",
         "linkedin": "https://www.linkedin.com/in/mason-stark-3671671b5/"
     },
-    "Shiva Oswal": {
-        "id": "shiva",
-        "description": "Shiva (CS '26) is the director of education at poker club. He enjoys the analytical side of poker, and is interested in the burgeoning field of poker AI.",
-        "linkedin": "https://www.linkedin.com/in/shivaoswal/"
-    },
     "Daniel Thinfen": {
         "id": "daniel",
         "description": "Daniel (CS '26) helps with the day to day operations of poker club. Outside of poker, he enjoys skiing, golfing, and ultimate frisbee.",
         "linkedin": "https://www.linkedin.com/in/danielthinfen/"
+    },
+    "Ethan Taylor": {
+        "id": "ethan",
+        "description": "Ethan (Business '24) helps improve the social aspect of poker club. He is also involved with the Undergraduate Consulting Club.",
+        "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
     },
     "Jeffery Guo": {
         "id": "jeffery",

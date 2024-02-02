@@ -35,7 +35,7 @@
 			<br />
 			<p><strong>Sponsored Tournaments</strong></p>
 			<p>
-				Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include cash prizes. The SIG tournament is dealt by traders from SIG!
+				Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include prizes. The SIG tournament is dealt by traders from SIG!
 			</p>
 			<br />
 			<p><strong>IPA</strong></p>

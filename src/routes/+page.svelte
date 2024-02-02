@@ -42,7 +42,7 @@
 			<br />
 			<p><strong>Tournaments</strong></p>
 			<p>
-				Poker Club runs multiple poker tournaments every year. These tournaments usually have a buyin ranging from $20 to $50, and the top finishers get a share of the prizepool. We also run sponsored tournaments, which are free to enter and have cash prizes! We also occasionally invite poker pros as guest speakers to our tournaments.
+				Poker Club runs multiple poker tournaments every year. These tournaments usually have a buyin ranging from $20 to $50, and the top finishers get a share of the prizepool. We also run sponsored tournaments, which are free to enter and have prizes! We also occasionally invite poker pros as guest speakers to our tournaments.
 			</p>
 			<br />
 			<br />

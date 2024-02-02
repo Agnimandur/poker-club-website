@@ -22,7 +22,7 @@
 		<div class="col">
 			<p><strong>Our GBMs</strong></p>
 			<p>
-				Poker Club generally hosts one GBM every two weeks. These GBMs are open to everyone, and are completely free. At these GBMs, you can relax, enjoy some food and drink, and of course play some poker! There are usually a couple of free to play tables, a few 0.10/0.20 tables, and one 1/2 table.
+				Poker Club generally hosts one GBM every two weeks. These GBMs are open to everyone, and are completely free. At these GBMs, you can relax, enjoy some food and drink, and of course play some poker in a friendly ring game style format.
 			</p>
 			<br />
 			<p><strong>Educational Sessions</strong></p>
