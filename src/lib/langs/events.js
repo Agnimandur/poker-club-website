@@ -7,13 +7,6 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
-        "title": "SIG Tournament",
-        "location": "Location TBD",
-        "date": "2024-03-16",
-        "time": "12:00:00",
-        "url": "/events/tournaments"
-    },
-    {
         "title": "Pokerfest Qualifier",
         "location": "Online",
         "date": "2024-02-03",
