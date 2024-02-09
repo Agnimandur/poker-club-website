@@ -7,7 +7,7 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
-        "title": "Superbowel GBM",
+        "title": "Superbowl GBM",
         "location": "Tepper Simmons B",
         "date": "2024-02-11",
         "time": "18:00:00",
