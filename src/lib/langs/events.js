@@ -7,6 +7,13 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
+        "title": "Tournament Workshop",
+        "location": "Tepper Simmons",
+        "date": "2024-02-17",
+        "time": "15:00:00",
+        "url": "/events/gbm"
+    },
+    {
         "title": "Superbowl GBM",
         "location": "Tepper Simmons B",
         "date": "2024-02-11",

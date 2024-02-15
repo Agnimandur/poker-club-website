@@ -27,7 +27,7 @@
 			<br />
 			<p><strong>Educational Sessions</strong></p>
 			<p>
-				Poker Club hosts educational sessions at the beginning of each school year. The goal is to introduce poker to people who have never played before, and then cover some basic poker strategy, and more advanced "game theory optimal" theory.
+				Poker Club hosts educational sessions at the beginning of each school year. The goal is to introduce poker to people who have never played before, and then cover some basic poker strategy, and more advanced "game theory optimal" theory. We also host tournament theory workshops to cover the basics of tournament strategy and ICM.
 			</p>
 			<br />
 			<br />
