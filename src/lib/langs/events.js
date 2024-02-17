@@ -7,6 +7,20 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
+        "title": "SIG Tournament",
+        "location": "Tepper Simmons",
+        "date": "2024-03-17",
+        "time": "09:30:00",
+        "url": "/events/tournament"
+    },
+    {
+        "title": "Lunar New Year Tournament",
+        "location": "Tepper Simmons",
+        "date": "2024-02-25",
+        "time": "14:00:00",
+        "url": "/events/tournament"
+    },
+    {
         "title": "Tournament Workshop",
         "location": "Tepper Simmons",
         "date": "2024-02-17",
