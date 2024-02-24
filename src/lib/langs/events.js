@@ -1,10 +1,24 @@
 const eventData = [
     {
         "title": "MIT Pokerfest",
-        "location": "Porter Room (MIT)",
+        "location": "MIT",
         "date": "2024-04-06",
         "time": "13:00:00",
         "url": "https://poker.mit.edu/"
+    },
+    {
+        "title": "Poker AI Contest",
+        "location": "DH 2210",
+        "date": "2024-03-30",
+        "time": "10:30:00",
+        "url": "/events/pokerai"
+    },
+    {
+        "title": "SoCal Tournament",
+        "location": "Harvey Mudd",
+        "date": "2024-03-23",
+        "time": "12:00:00",
+        "url": "https://www.socalcollegepoker.com/"
     },
     {
         "title": "SIG Tournament",
@@ -19,6 +33,13 @@ const eventData = [
         "date": "2024-02-25",
         "time": "14:00:00",
         "url": "/events/tournament"
+    },
+    {
+        "title": "SIG Qualifier",
+        "location": "Online",
+        "date": "2024-02-24",
+        "time": "15:00:00",
+        "url": "https://discord.gg/EAX4DHhMm4"
     },
     {
         "title": "Tournament Workshop",
