@@ -25,7 +25,7 @@ const eventData = [
         "location": "Tepper Simmons",
         "date": "2024-03-17",
         "time": "09:30:00",
-        "url": "/events/tournament"
+        "url": "/events/tournaments"
     },
     {
         "title": "Lunar New Year Tournament",
