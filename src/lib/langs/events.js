@@ -32,7 +32,7 @@ const eventData = [
         "location": "Tepper Simmons",
         "date": "2024-02-25",
         "time": "14:00:00",
-        "url": "/events/tournament"
+        "url": "/events/tournaments"
     },
     {
         "title": "SIG Qualifier",
