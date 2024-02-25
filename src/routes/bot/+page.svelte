@@ -101,7 +101,6 @@
         }
 
         if (ava == false) {
-            alert("NO AVAILABLE DEALERS");
             return "";
         }
 

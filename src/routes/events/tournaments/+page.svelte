@@ -98,12 +98,12 @@
 				<h4>Table {t}</h4>
 	
 				<label for="table{t}:seat0">Dealer:</label>
-				<input type="text" id="table{t}:seat0" size="13" />
+				<input type="text" id="table{t}:seat0" size="13" readonly />
 				<br/>
 				<br/>
 				{#each seat_nums as s}
 					<label for="table{t}:seat{s}">Seat {s}:</label>
-					<input type="text" id="table{t}:seat{s}" size="13" />
+					<input type="text" id="table{t}:seat{s}" size="13" readonly />
 					<br/>
 				{/each}
 			</div>
@@ -115,12 +115,12 @@
 				<h4>Table {t}</h4>
 	
 				<label for="table{t}:seat0">Dealer:</label>
-				<input type="text" id="table{t}:seat0" size="13" />
+				<input type="text" id="table{t}:seat0" size="13" readonly />
 				<br/>
 				<br/>
 				{#each seat_nums as s}
 					<label for="table{t}:seat{s}">Seat {s}:</label>
-					<input type="text" id="table{t}:seat{s}" size="13" />
+					<input type="text" id="table{t}:seat{s}" size="13" readonly />
 					<br/>
 				{/each}
 			</div>
@@ -132,12 +132,12 @@
 				<h4>Table {t}</h4>
 	
 				<label for="table{t}:seat0">Dealer:</label>
-				<input type="text" id="table{t}:seat0" size="13" />
+				<input type="text" id="table{t}:seat0" size="13" readonly />
 				<br/>
 				<br/>
 				{#each seat_nums as s}
 					<label for="table{t}:seat{s}">Seat {s}:</label>
-					<input type="text" id="table{t}:seat{s}" size="13" />
+					<input type="text" id="table{t}:seat{s}" size="13" readonly />
 					<br/>
 				{/each}
 			</div>
@@ -149,12 +149,12 @@
 				<h4>Table {t}</h4>
 	
 				<label for="table{t}:seat0">Dealer:</label>
-				<input type="text" id="table{t}:seat0" size="13" />
+				<input type="text" id="table{t}:seat0" size="13" readonly />
 				<br/>
 				<br/>
 				{#each seat_nums as s}
 					<label for="table{t}:seat{s}">Seat {s}:</label>
-					<input type="text" id="table{t}:seat{s}" size="13" />
+					<input type="text" id="table{t}:seat{s}" size="13" readonly />
 					<br/>
 				{/each}
 			</div>
