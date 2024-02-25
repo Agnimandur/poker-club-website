@@ -131,7 +131,7 @@
         }
     }
 
-    let seat_nums = [1,2,3,4,5,6,7,9];
+    let seat_nums = [1,2,3,4,5,6,7,8,9];
 </script>
 
 <div class="section">

@@ -40,7 +40,7 @@
         });
     }
 
-	let seat_nums = [1,2,3,4,5,6,7,9];
+	let seat_nums = [1,2,3,4,5,6,7,8,9];
 </script>
 
 <NavBar />
@@ -95,7 +95,7 @@
 	<div class="row">
 		{#each [1,2,3,4] as t}
 			<div class="section column">
-				<h4>Table {t}</h4>
+				<h3>Table {t}</h3>
 	
 				<label for="table{t}:seat0">Dealer:</label>
 				<input type="text" id="table{t}:seat0" size="13" readonly />
@@ -112,7 +112,7 @@
 	<div class="row">
 		{#each [5,6,7,8] as t}
 			<div class="section column">
-				<h4>Table {t}</h4>
+				<h3>Table {t}</h3>
 	
 				<label for="table{t}:seat0">Dealer:</label>
 				<input type="text" id="table{t}:seat0" size="13" readonly />
@@ -129,7 +129,7 @@
 	<div class="row">
 		{#each [9,10,11,12] as t}
 			<div class="section column">
-				<h4>Table {t}</h4>
+				<h3>Table {t}</h3>
 	
 				<label for="table{t}:seat0">Dealer:</label>
 				<input type="text" id="table{t}:seat0" size="13" readonly />
@@ -146,7 +146,7 @@
 	<div class="row">
 		{#each [13,14,15,16] as t}
 			<div class="section column">
-				<h4>Table {t}</h4>
+				<h3>Table {t}</h3>
 	
 				<label for="table{t}:seat0">Dealer:</label>
 				<input type="text" id="table{t}:seat0" size="13" readonly />
@@ -174,6 +174,10 @@
 		flex: 25%;
 		padding: 20px;
 		box-sizing: border-box;
+	}
+
+	label, input {
+		font-size: 18px;
 	}
 
 	/* On screens that are 992px wide or less, go from four columns to two columns */
