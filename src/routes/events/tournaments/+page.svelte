@@ -3,8 +3,8 @@
 	import Carousel from 'svelte-carousel'
   
   	let carousel; // for calling methods of the carousel instance
-	const tournaments = ["Fall 2023 Tournament Winner", "2023 Heads Up Tournament Winner", "Xuan Liu Tournament Winner", "Citadel Tournament Winner", "2022 Tournament Winner"]
-	const winners = ["Anthony Jiang", "Allen Yang","Nadim Motaghedi","Derek Wong","Ryan Driscoll"];
+	const tournaments = ["Lunar New Year 2024 Tournament Winner", "Fall 2023 Tournament Winner", "2023 Heads Up Tournament Winner", "Xuan Liu Tournament Winner", "Citadel Tournament Winner", "2022 Tournament Winner"]
+	const winners = ["Tiannan Zhang","Anthony Jiang", "Allen Yang","Nadim Motaghedi","Derek Wong","Ryan Driscoll"];
 
 	/**
 	 * @param {number} index
