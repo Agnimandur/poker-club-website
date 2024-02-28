@@ -78,7 +78,8 @@
 				on:pageChange={
 					event => changeInformation(event.detail)
 				}
-			>
+			>	
+				<img src="/winners/tiannan.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
 				<img src="/winners/anthony.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
 				<img src="/winners/allen.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
 				<img src="/winners/nadim.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
