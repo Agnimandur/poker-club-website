@@ -71,8 +71,8 @@
 			<br />
 		</div>
 		<div class="col" style="text-align: center;">
-			<p style="margin: auto;"><strong id="tournament">Fall 2023 Tournament Winner</strong></p>
-			<p style="margin: auto;"><em id="winner">Anthony Jiang</em></p>
+			<p style="margin: auto;"><strong id="tournament">{tournaments[0]}r</strong></p>
+			<p style="margin: auto;"><em id="winner">{winners[0]}</em></p>
 			<Carousel
 				bind:this={carousel}
 				on:pageChange={
