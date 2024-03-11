@@ -28,6 +28,13 @@ const eventData = [
         "url": "/events/tournaments"
     },
     {
+        "title": "2nd SIG Qualifier",
+        "location": "Online",
+        "date": "2024-03-12",
+        "time": "16:30:00",
+        "url": "https://discord.gg/EAX4DHhMm4"
+    },
+    {
         "title": "Lunar New Year Tournament",
         "location": "Tepper Simmons",
         "date": "2024-02-25",
@@ -35,7 +42,7 @@ const eventData = [
         "url": "/events/tournaments"
     },
     {
-        "title": "SIG Qualifier",
+        "title": "1st SIG Qualifier",
         "location": "Online",
         "date": "2024-02-24",
         "time": "15:00:00",
