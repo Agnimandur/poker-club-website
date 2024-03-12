@@ -10,7 +10,14 @@ const eventData = [
         "title": "Poker AI Contest",
         "location": "DH 2210",
         "date": "2024-03-30",
-        "time": "10:30:00",
+        "time": "11:00:00",
+        "url": "/events/pokerai"
+    },
+    {
+        "title": "Poker AI Contest",
+        "location": "DH 2210",
+        "date": "2024-03-29",
+        "time": "18:00:00",
         "url": "/events/pokerai"
     },
     {

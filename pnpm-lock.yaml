@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^2.10.1
     version: 2.10.1(prettier@2.8.8)(svelte@3.59.2)
   svelte-carousel:
-    specifier: ^1.0.25
-    version: 1.0.25
+    specifier: github:vadimkorr/svelte-carousel#pull/142/head
+    version: github.com/vadimkorr/svelte-carousel/a299747c626d559ad02dde0a1463243bb07935df
   svelte-check:
     specifier: ^3.6.2
     version: 3.6.4(postcss@8.4.35)(svelte@3.59.2)
@@ -2089,12 +2089,6 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-carousel@1.0.25:
-    resolution: {integrity: sha512-vR/AbGYwlh3fgWaB5PJg+iqZFvoVCJq4JWdmlXvPtdG9TLlKJWBcoiKlMZt3MnFF7AqNW46tOH/O+uVMWQzyWQ==}
-    dependencies:
-      easy-reactive: 1.0.4
-    dev: true
-
   /svelte-check@3.6.4(postcss@8.4.35)(svelte@3.59.2):
     resolution: {integrity: sha512-mY/dqucqm46p72M8yZmn81WPZx9mN6uuw8UVfR3ZKQeLxQg5HDGO3HHm5AZuWZPYNMLJ+TRMn+TeN53HfQ/vsw==}
     hasBin: true
@@ -2468,4 +2462,12 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  github.com/vadimkorr/svelte-carousel/a299747c626d559ad02dde0a1463243bb07935df:
+    resolution: {tarball: https://codeload.github.com/vadimkorr/svelte-carousel/tar.gz/a299747c626d559ad02dde0a1463243bb07935df}
+    name: svelte-carousel
+    version: 1.0.25
+    dependencies:
+      easy-reactive: 1.0.4
     dev: true
