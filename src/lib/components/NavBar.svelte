@@ -104,7 +104,31 @@
 							class:active={$page.url.pathname === '/events'}
 							transition:fly={{ y: -15, delay: 50 * 2 }}
 						>
-							<span>Events</span>
+							<span>Calendar</span>
+						</a>
+						<a
+							href="/events/gbm"
+							class="textnav"
+							class:active={$page.url.pathname === '/events/gbm'}
+							transition:fly={{ y: -15, delay: 50 * 2 }}
+						>
+							<span>GBM</span>
+						</a>
+						<a
+							href="/events/tournaments"
+							class="textnav"
+							class:active={$page.url.pathname === '/events/tournaments'}
+							transition:fly={{ y: -15, delay: 50 * 2 }}
+						>
+							<span>Tournaments</span>
+						</a>
+						<a
+							href="/events/pokerai"
+							class="textnav"
+							class:active={$page.url.pathname === '/events/pokerai'}
+							transition:fly={{ y: -15, delay: 50 * 2 }}
+						>
+							<span>AI Contest</span>
 						</a>
 						<a
 							href="/exec"

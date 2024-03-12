@@ -41,7 +41,13 @@
     }
 
 	let seat_nums = [1,2,3,4,5,6,7,8,9];
+
+	let windowWidth = 0;
+	const MOBILE = 700;
+	const TITLE_BREAKPOINT = MOBILE + 350;
 </script>
+
+<svelte:window bind:innerWidth={windowWidth} />
 
 <NavBar />
 <br />
@@ -52,42 +58,61 @@
 <div class="section">
 	<h2 style="text-align: center;">Tournaments</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
-	<div class="row-uneven">
-		<div class="col">
-			<p><strong>Our Tournaments</strong></p>
-			<p>
-				Poker Club generally hosts one tournament a semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
-			</p>
-			<br />
-			<p><strong>Sponsored Tournaments</strong></p>
-			<p>
-				Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include prizes. The SIG tournament is dealt by traders from SIG!
-			</p>
-			<br />
-			<p><strong>IPA</strong></p>
-			<p>
-				CMU Poker Club participates in IPA: the Intercollegiate Poker Association. If you want to take tournament poker more seriously, and join our IPA team, let a member of our Exec board know!
-			</p>
-			<br />
+	{#if windowWidth > TITLE_BREAKPOINT}
+		<div class="row-uneven">
+			<div class="col">
+				<p><strong>Our Tournaments</strong></p>
+				<p>
+					Poker Club generally hosts one tournament a semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
+				</p>
+				<br />
+				<p><strong>Sponsored Tournaments</strong></p>
+				<p>
+					Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include prizes. The SIG tournament is dealt by traders from SIG!
+				</p>
+				<br />
+				<p><strong>IPA</strong></p>
+				<p>
+					CMU Poker Club participates in IPA: the Intercollegiate Poker Association. If you want to take tournament poker more seriously, and join our IPA team, let a member of our Exec board know!
+				</p>
+				<br />
+			</div>
+
+			<div class="col" style="text-align: center;">
+				<p style="margin: auto;"><strong id="tournament">{tournaments[0]}</strong></p>
+				<p style="margin: auto;"><em id="winner">{winners[0]}</em></p>
+				<Carousel
+					bind:this={carousel}
+					on:pageChange={
+						event => changeInformation(event.detail)
+					}
+				>	
+					<img src="/winners/tiannan.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+					<img src="/winners/anthony.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+					<img src="/winners/allen.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+					<img src="/winners/nadim.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+					<img src="/winners/derek.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+					<img src="/winners/ryan.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
+				</Carousel>
+			</div>
 		</div>
-		<div class="col" style="text-align: center;">
-			<p style="margin: auto;"><strong id="tournament">{tournaments[0]}r</strong></p>
-			<p style="margin: auto;"><em id="winner">{winners[0]}</em></p>
-			<Carousel
-				bind:this={carousel}
-				on:pageChange={
-					event => changeInformation(event.detail)
-				}
-			>	
-				<img src="/winners/tiannan.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-				<img src="/winners/anthony.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-				<img src="/winners/allen.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-				<img src="/winners/nadim.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-				<img src="/winners/derek.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-				<img src="/winners/ryan.jpg" style="width: 80%; object-fit: fill;" alt="tournament winner"/>
-			</Carousel>
-		</div>
-	</div>
+	{:else}
+		<p><strong>Our Tournaments</strong></p>
+		<p>
+			Poker Club generally hosts one tournament a semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
+		</p>
+		<br />
+		<p><strong>Sponsored Tournaments</strong></p>
+		<p>
+			Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include prizes. The SIG tournament is dealt by traders from SIG!
+		</p>
+		<br />
+		<p><strong>IPA</strong></p>
+		<p>
+			CMU Poker Club participates in IPA: the Intercollegiate Poker Association. If you want to take tournament poker more seriously, and join our IPA team, let a member of our Exec board know!
+		</p>
+		<br />
+	{/if}
 </div>
 
 <div class="section">
