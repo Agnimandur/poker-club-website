@@ -36,6 +36,9 @@
 					Poker Club hosts educational sessions at the beginning of each school year. The goal is to introduce poker to people who have never played before, and then cover some basic poker strategy, and more advanced "game theory optimal" theory. We also host tournament theory workshops to cover the basics of tournament strategy and ICM.
 				</p>
 				<br />
+				<p><strong>A Texas Holdem Game</strong></p>
+				<img src="/finaltable.png" style="width: 60%; object-fit: fill;" alt="final table"/>
+				<br />
 				<br />
 			</div>
 			<div class="col" style="text-align: center;">
@@ -59,7 +62,8 @@
 		<p>
 			Poker Club generally hosts one GBM every two weeks. These GBMs are open to everyone, and are completely free. At these GBMs, you can relax, enjoy some food and drink, and of course play some poker in a friendly ring game style format.
 		</p>
-		<img src="/gbmphotos/cmupoker.jpg" style="width: 60%; object-fit: fill;" alt="cmu poker club"/>
+		<img src="/finaltable.png" style="width: 60%; object-fit: fill;" alt="final table"/>
+		<br />
 		<br />
 		<p><strong>Educational Sessions</strong></p>
 		<p>
