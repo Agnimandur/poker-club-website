@@ -1,8 +1,15 @@
 <script>
-    import Title from '$lib/components/Title.svelte';
+    import NavBar from '$lib/components/NavBar.svelte';
 </script>
 
-<Title title="POKER AI CONTEST" description="A one-day AI challenge"/>
+<NavBar />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h2 style="text-align: center;">The Poker AI Contest</h2>
+<div class="flex"><div style="width: 50%;"><hr /></div></div>
 
 <div style="margin: 3%;">
     <p>
@@ -18,7 +25,11 @@
     </p>
     <br/>
     <p>
-        When: Saturday, March 30, 10:30 AM - 9 PM.
+        Pre-eminent researchers Tuomas Sandholm and Sam Ganzfried will deliver talks on their ongoing research at the intersection of poker and AI.
+    </p>
+    <br/>
+    <p>
+        When: Friday, March 29, 6PM-9PM and Saturday, March 30, 11AM-11PM.
         Register now: <a href="https://forms.gle/Y6dnfZsR4djAPkARA">https://forms.gle/Y6dnfZsR4djAPkARA</a>
     </p>
 </div>

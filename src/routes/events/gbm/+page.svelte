@@ -39,7 +39,7 @@
 				<br />
 			</div>
 			<div class="col" style="text-align: center;">
-				<p style="margin: auto;"><strong id="gbm_event">CMU Poker Club</strong></p>
+				<p style="margin: auto;"><strong id="gbm_event">{gbm_events[0]}</strong></p>
 				<Carousel
 					bind:this={carousel}
 					style="margin: auto;"
@@ -59,11 +59,13 @@
 		<p>
 			Poker Club generally hosts one GBM every two weeks. These GBMs are open to everyone, and are completely free. At these GBMs, you can relax, enjoy some food and drink, and of course play some poker in a friendly ring game style format.
 		</p>
+		<img src="/gbmphotos/cmupoker.jpg" style="width: 60%; object-fit: fill;" alt="cmu poker club"/>
 		<br />
 		<p><strong>Educational Sessions</strong></p>
 		<p>
 			Poker Club hosts educational sessions at the beginning of each school year. The goal is to introduce poker to people who have never played before, and then cover some basic poker strategy, and more advanced "game theory optimal" theory. We also host tournament theory workshops to cover the basics of tournament strategy and ICM.
 		</p>
+		<img src="/gbmphotos/edusession.jpg" style="width: 60%; object-fit: fill;" alt="educational session"/>
 		<br />
 		<br />
 	{/if}

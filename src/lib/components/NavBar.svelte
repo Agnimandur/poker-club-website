@@ -42,7 +42,7 @@
 				{#if windowWidth > TITLE_BREAKPOINT}
 					CARNEGIE POKER CLUB
 				{:else}
-					PC
+					POKER CLUB
 				{/if}
 			</h1>
 		</a>

@@ -21,6 +21,13 @@ const eventData = [
         "url": "/events/pokerai"
     },
     {
+        "title": "Poker AI Contest",
+        "location": "DH 2210",
+        "date": "2024-03-29",
+        "time": "18:00:00",
+        "url": "/events/pokerai"
+    },
+    {
         "title": "SoCal Tournament",
         "location": "Harvey Mudd",
         "date": "2024-03-23",

@@ -4,13 +4,18 @@
 	export let height: string = '300px';
 	export let title: string;
 	export let description: string;
+
+	let windowWidth = 0;
+	const MOBILE = 900;
 </script>
+
+<svelte:window bind:innerWidth={windowWidth} />
 
 <NavBar />
 <div class="container" style="height: {height};margin-top: 70px;">
 	<div class="homeTitleDiv flex" style="height: 100%;">
 		<div class="box">
-			<h1 style="font-size: 100px;">{title}</h1>
+			<h1 style="font-size: {windowWidth > MOBILE ? '100' : '50'}px;">{title}</h1>
 			<br />
 			<h4>{description}</h4>
 		</div>
