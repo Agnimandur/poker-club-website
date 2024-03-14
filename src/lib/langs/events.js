@@ -7,24 +7,29 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
-        "title": "Poker AI Contest",
+        "title": "AI Contest Judging",
+        "date": "2024-03-30",
+        "time": "17:00:00",
+        "url": "/events/pokerai"
+    },
+    {
+        "title": "Tuomas Sandholm Talk",
         "location": "DH 2210",
         "date": "2024-03-30",
-        "time": "11:00:00",
+        "time": "13:00:00",
         "url": "/events/pokerai"
     },
     {
-        "title": "Poker AI Contest",
-        "location": "DH 2210",
+        "title": "Sam Ganzfried Talk",
         "date": "2024-03-29",
-        "time": "18:00:00",
+        "time": "19:30:00",
         "url": "/events/pokerai"
     },
     {
-        "title": "Poker AI Contest",
+        "title": "AI Contest Checkin",
         "location": "DH 2210",
         "date": "2024-03-29",
-        "time": "18:00:00",
+        "time": "17:00:00",
         "url": "/events/pokerai"
     },
     {
@@ -38,7 +43,7 @@ const eventData = [
         "title": "SIG Tournament",
         "location": "Tepper Simmons",
         "date": "2024-03-17",
-        "time": "09:30:00",
+        "time": "09:00:00",
         "url": "/events/tournaments"
     },
     {
