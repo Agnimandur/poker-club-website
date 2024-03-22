@@ -63,17 +63,17 @@
 			<div class="col">
 				<p><strong>Our Tournaments</strong></p>
 				<p>
-					Poker Club generally hosts one tournament a semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
+					Poker Club generally hosts a few tournaments a semester. These tournaments draw up to 200 participants and have prize pools of over $5000! Some of our tournaments have a specific theme, such as our last tournament, the Lunar New Year High Roller!
 				</p>
 				<br />
 				<p><strong>Sponsored Tournaments</strong></p>
 				<p>
-					Poker Club's sponsors, including quant companies like SIG and Citadel, also host sponsored tournaments. These tournaments are free to enter, and include prizes. The SIG tournament is dealt by traders from SIG!
+					Poker Club's sponsors also host sponsored tournaments. These tournaments are free to enter, with sponsored prizes! Every year, SIG sends down a team of traders to deal and network at their tournament.
 				</p>
 				<br />
 				<p><strong>IPA</strong></p>
 				<p>
-					CMU Poker Club participates in IPA: the Intercollegiate Poker Association. If you want to take tournament poker more seriously, and join our IPA team, let a member of our Exec board know!
+					CMU Poker Club participates in IPA: the Intercollegiate Poker Association. If you want to take tournament poker more seriously, consider joining the IPA team! Last year, we finished in second place. The IPA team also travels together to tournament stops across the country
 				</p>
 				<br />
 			</div>
@@ -99,7 +99,7 @@
 	{:else}
 		<p><strong>Our Tournaments</strong></p>
 		<p>
-			Poker Club generally hosts one tournament a semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
+			Poker Club generally hosts several tournaments per semester. These club sponsored tournaments usually have a buyin of $20, with a prizepool consisting of both club funds and member buyins. We guaranteed $5000 in our April 2023 tournament with Xuan Liu!
 		</p>
 		<br />
 		<p><strong>Sponsored Tournaments</strong></p>

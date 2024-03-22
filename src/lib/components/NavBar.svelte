@@ -83,6 +83,9 @@
 			<a href="/sponsors" class:active={$page.url.pathname === '/sponsors'}
 				>Sponsors</a
 			>
+			<a href="/contact" class:active={$page.url.pathname === '/contact'}
+				>Contact</a
+			>
 		{:else}
 			<div class="mobileView" style="height: 100%;">
 				<div style="height: 100%;" class="flex">
@@ -146,6 +149,15 @@
 							transition:fly={{ y: -15, delay: 50 * 4 }}
 						>
 							<span>Sponsors</span>
+						</a>
+						<a
+								
+							href="/contact"
+							class="textnav"
+							class:active={$page.url.pathname === '/contact'}
+							transition:fly={{ y: -15, delay: 50 * 4 }}
+						>
+							<span>Contact</span>
 						</a>
 					</div>
 				{/if}

@@ -8,6 +8,7 @@
 <br />
 <br />
 <br />
+<br />
 <h2 style="text-align: center;">The Poker AI Contest</h2>
 <div class="flex"><div style="width: 50%;"><hr /></div></div>
 
@@ -21,7 +22,7 @@
     </p>
     <br/>
     <p>
-        With over $8,000 in cash prizes, this event offers a unique opportunity to network with recruiters from our gold sponsors, Jump Trading and Trexquant, among others. This is your chance to connect with leading industry professionals, all while enjoying complimentary meals, refreshments, and exclusive merchandise.
+        With over $6,000 in cash prizes, this event offers a unique opportunity to network with recruiters from our gold sponsors, Jump Trading and Trexquant, among others. This is your chance to connect with leading industry professionals, all while enjoying complimentary meals, refreshments, and exclusive merchandise.
     </p>
     <br/>
     <p>
@@ -29,7 +30,7 @@
     </p>
     <br/>
     <p>
-        When: Friday, March 29, 6PM-9PM and Saturday, March 30, 11AM-11PM.
+        When: Friday, March 29, 5PM-9PM and Saturday, March 30, 11AM-11PM. Coding open for 24 hours!
         Register now: <a href="https://forms.gle/Y6dnfZsR4djAPkARA">https://forms.gle/Y6dnfZsR4djAPkARA</a>
     </p>
 </div>

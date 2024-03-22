@@ -28,12 +28,12 @@
 			<div class="col">
 				<p><strong>Our GBMs</strong></p>
 				<p>
-					Poker Club generally hosts one GBM every two weeks. These GBMs are open to everyone, and are completely free. At these GBMs, you can relax, enjoy some food and drink, and of course play some poker in a friendly ring game style format.
+					Poker Club generally hosts one GBM every two weeks. GBMs are casual meetings where club members can play some poker while meeting other members of the club. Games of any stake may start if there are interested players. Food and drink provided!
 				</p>
 				<br />
 				<p><strong>Educational Sessions</strong></p>
 				<p>
-					Poker Club hosts educational sessions at the beginning of each school year. The goal is to introduce poker to people who have never played before, and then cover some basic poker strategy, and more advanced "game theory optimal" theory. We also host tournament theory workshops to cover the basics of tournament strategy and ICM.
+					Poker Club hosts educational sessions throughout the semester. The goal is to help new players step into poker. We cover everything from the rules and basic strategy to more advanced "game theory optimal" play. We also host tournament theory workshops to cover the basics of tournament strategy and ICM.
 				</p>
 				<br />
 				<p><strong>A Texas Holdem Game</strong></p>
