@@ -31,15 +31,8 @@
 <br />
 <br />
 <div class="section">
-	<h2 style="text-align: center;">Contact Information</h2>
-	<div class="flex"><div style="width: 50%;"><hr /></div></div>
-    <p>For inquiries regarding sponsorships, events, tournaments, membership, or anything else, please contact us at <a href="mailto:pokerclub@andrew.cmu.edu">pokerclub@andrew.cmu.edu</a> or fill out the form below.</p>
-</div>
-
-<div class="section">
     <form on:submit|preventDefault={handleSubmit}>
-        <input type="hidden" name="access_key" value="90a0899f-a54c-4dd6-873a-ca6f707cf4b9
-        ">
+        <input type="hidden" name="access_key" value="331e8a60-b227-49e0-be79-8c3b5136882a">
         <div style="display:inline-block;">
             <label>
                 Name
@@ -64,7 +57,7 @@
         <div style="display:inline-block;">
             <label>
                 Message Us!
-                <textarea name="message" required rows="3" cols="50"></textarea>
+                <textarea name="message" required rows="3" cols="50" placeholder="For inquiries regarding sponsorships, events, tournaments, membership, or anything else."></textarea>
             </label>
         </div>
         
