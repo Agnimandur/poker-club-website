@@ -3,7 +3,7 @@ const eventData = [
         "title": "MIT Pokerfest",
         "location": "MIT",
         "date": "2024-04-06",
-        "time": "13:00:00",
+        "time": "10:00:00",
         "url": "https://poker.mit.edu/"
     },
     {

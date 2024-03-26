@@ -49,11 +49,11 @@
 			<FancyButton title="View Calendar" href="/events" />
 		</div>
 		<div class="col">
-			<p><strong>2023 Heads Up Tournament Winner</strong></p>
+			<p><strong>2024 SIG Tournament: 6 tables remain!</strong></p>
 			<img
-				src="/hutournamentwinner.png"
+				src="/tournament2.jpg"
 				style="width: 80%; object-fit: fill;"
-				alt="Heads Up Tournament Winner"
+				alt="SIG Tournament"
 			/>
 		</div>
 	</div>
