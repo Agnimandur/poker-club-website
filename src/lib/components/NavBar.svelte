@@ -74,7 +74,7 @@
 				<div class="dropdown-content">
 					<a href={`/events/gbm`}>General Body Meetings</a>
 					<a href={`/events/tournaments`}>Tournaments</a>
-					<a href={`/events/pokerai`}>Poker AI Contest</a>
+					<a href={`https://cmudsc.com/pokerai`}>Poker AI Contest</a>
 				</div>
 			</div>
 			<a href="/exec" class:active={$page.url.pathname === '/exec'}
@@ -126,9 +126,8 @@
 							<span>Tournaments</span>
 						</a>
 						<a
-							href="/events/pokerai"
+							href="https://cmudsc.com/pokerai"
 							class="textnav"
-							class:active={$page.url.pathname === '/events/pokerai'}
 							transition:fly={{ y: -15, delay: 50 * 2 }}
 						>
 							<span>AI Contest</span>

@@ -10,27 +10,27 @@ const eventData = [
         "title": "AI Contest Judging",
         "date": "2024-03-30",
         "time": "17:00:00",
-        "url": "/events/pokerai"
+        "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "Tuomas Sandholm Talk",
         "location": "DH 2210",
         "date": "2024-03-30",
         "time": "13:00:00",
-        "url": "/events/pokerai"
+        "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "Sam Ganzfried Talk",
         "date": "2024-03-29",
         "time": "19:30:00",
-        "url": "/events/pokerai"
+        "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "AI Contest Checkin",
         "location": "DH 2210",
         "date": "2024-03-29",
         "time": "17:00:00",
-        "url": "/events/pokerai"
+        "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "SoCal Tournament",
