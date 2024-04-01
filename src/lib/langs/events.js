@@ -7,22 +7,22 @@ const eventData = [
         "url": "https://poker.mit.edu/"
     },
     {
-        "title": "AI Contest Judging",
+        "title": "AI Contest Closing Ceremony",
         "date": "2024-03-30",
-        "time": "17:00:00",
+        "time": "19:00:00",
         "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "Tuomas Sandholm Talk",
         "location": "DH 2210",
         "date": "2024-03-30",
-        "time": "13:00:00",
+        "time": "18:00:00",
         "url": "https://cmudsc.com/pokerai"
     },
     {
         "title": "Sam Ganzfried Talk",
         "date": "2024-03-29",
-        "time": "19:30:00",
+        "time": "18:00:00",
         "url": "https://cmudsc.com/pokerai"
     },
     {
