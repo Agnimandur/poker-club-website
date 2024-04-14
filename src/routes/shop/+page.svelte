@@ -25,7 +25,7 @@
 	
 	<li class="box">
 		<h2>CMU Poker Club Button</h2>
-		<img src="/shop/buttonT.png" alt="CMU Poker Club dealer button" width="300px">
+		<img src="/shop/button.jpg" alt="CMU Poker Club dealer button" width="300px">
 		<p>$10</p>
 	</li>
 	
