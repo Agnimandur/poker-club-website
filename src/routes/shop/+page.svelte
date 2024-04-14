@@ -24,7 +24,7 @@
 	
 	<div  class="box">
 		<h2>Club Patch</h2>
-		<img src="/shop/patch.jpg" alt="Poker club batch" width="200" height="200">
+		<img src="/shop/patch.jpg" alt="Poker club patch" width="200" height="200">
 		<p>$3 (free with hoodie purchase)</p>
 	</div>
 </div>
@@ -38,6 +38,7 @@
 		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 		padding: 1em;
 		margin-right: 10px;
+		margin-top: 10px;
 	}
 </style>
 
