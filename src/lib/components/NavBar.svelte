@@ -83,6 +83,9 @@
 			<a href="/sponsors" class:active={$page.url.pathname === '/sponsors'}
 				>Sponsors</a
 			>
+			<a href="/shop" class:active={$page.url.pathname === '/shop'}
+				>Shop</a
+			>
 			<a href="/contact" class:active={$page.url.pathname === '/contact'}
 				>Contact</a
 			>
@@ -141,13 +144,20 @@
 							<span>Execs</span>
 						</a>
 						<a
-							
 							href="/sponsors"
 							class="textnav"
 							class:active={$page.url.pathname === '/sponsors'}
 							transition:fly={{ y: -15, delay: 50 * 4 }}
 						>
 							<span>Sponsors</span>
+						</a>
+						<a		
+							href="/shop"
+							class="textnav"
+							class:active={$page.url.pathname === '/shop'}
+							transition:fly={{ y: -15, delay: 50 * 4 }}
+						>
+							<span>Shop</span>
 						</a>
 						<a
 								
