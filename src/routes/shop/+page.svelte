@@ -13,19 +13,19 @@
 <ul>
 	<li class="box">
 		<h2>CMU Poker Club Hoodie</h2>
-		<img src="/shop/hoodieT.jpg" alt="CMU Poker Club hoodie" width="300px">
+		<img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" width="300px">
 		<p>$150 ($90 for club members)</p>
 	</li>
 
 	<li class="box">
 		<h2>CMU Poker Club Patch</h2>
-		<img src="/shop/patchT.jpg" alt="CMU Poker Club patch" width="300px" height="100px">
+		<img src="/shop/patchT.png" alt="CMU Poker Club patch" width="300px" height="100px">
 		<p>$3 (free with hoodie purchase)</p>
 	</li>
 	
 	<li class="box">
 		<h2>CMU Poker Club Button</h2>
-		<img src="/shop/buttonT.jpg" alt="CMU Poker Club dealer button" width="300px">
+		<img src="/shop/buttonT.png" alt="CMU Poker Club dealer button" width="300px">
 		<p>$10</p>
 	</li>
 	
