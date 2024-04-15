@@ -40,7 +40,7 @@
 			<img src="/transparentpokerclublogo.png" alt="poker club logo" />
 			<h1 style="font-size: 24px;">
 				{#if windowWidth > TITLE_BREAKPOINT}
-					CARNEGIE POKER CLUB
+					CARNEGIE MELLON UNIVERSITY POKER CLUB
 				{:else}
 					POKER CLUB
 				{/if}
