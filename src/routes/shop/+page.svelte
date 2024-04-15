@@ -14,13 +14,13 @@
 	<li class="box">
 		<h2>CMU Poker Club Hoodie</h2>
 		<img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" width="300px">
-		<p>$150 ($90 for club members)</p>
+		<p>$150 ($90 with club membership)</p>
 	</li>
 
 	<li class="box">
 		<h2>CMU Poker Club Patch</h2>
 		<img src="/shop/patchT.png" alt="CMU Poker Club patch" width="300px" height="100px">
-		<p>$3 (free with hoodie purchase)</p>
+		<p>$3 (included with hoodie purchase)</p>
 	</li>
 	
 	<li class="box">
