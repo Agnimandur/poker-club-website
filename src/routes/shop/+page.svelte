@@ -31,7 +31,7 @@
       <img src="/shop/patchT.png" alt="CMU Poker Club patch" width="300px" height="100px" />
       <div class="overlay">
         <div class="details">
-          <p>Size: 3" x 2"</p>
+          <p>Size: 4" x 1.74"</p>
           <p>Material: Embroidered</p>
           <p>Adhesive Backing</p>
         </div>
@@ -45,8 +45,9 @@
       <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" width="300px" />
       <div class="overlay">
         <div class="details">
-          <p>Diameter: 2"</p>
-          <p>Material: Plastic</p>
+          <p>Diameter: 2.55"</p>
+          <p>Thickness: 3/8" </p>
+          <p>Material: Acrylic</p>
           <p>Perfect for home games</p>
         </div>
       </div>
