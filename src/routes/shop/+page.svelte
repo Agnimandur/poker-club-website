@@ -29,7 +29,7 @@
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/patchT.png" alt="CMU Poker Club patch" />
+      <img src="/shop/patchsq.jpg" alt="CMU Poker Club patch" />
       <div class="overlay">
         <div class="details">
 		  <p>Size: 4" x 1.74"</p>
