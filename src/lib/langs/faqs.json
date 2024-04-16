@@ -1,11 +1,11 @@
 {
     "question1": {
         "question": "When/Where does Poker Club meet?",
-        "answer": "We try to host a casual GBM featuring some fun games every week or two, and we also hold lessons and other fun events, and also tournaments!"
+        "answer": "We usually meet on the weekends, with some sort of event every other week or so."
     },
     "question2": {
-        "question": "What events will there be?",
-        "answer": "We plan on running all sorts of poker-related events, such as tournaments, games, workshops, guest lectures, sponsored events/networking, and more!"
+        "question": "What events does Poker Club run?",
+        "answer": "We run all sorts of poker-related events, such as tournaments, games, workshops, guest lectures, sponsored events/networking, and more!"
     },
     "question3": {
         "question": "Do I need to pay/gamble money to be in poker club?",
@@ -33,6 +33,6 @@
     },
     "question9": {
         "question": "I want a hoodie! How can I get one?",
-        "answer": "Merch will be available shortly!"
+        "answer": "Merch is now available in the store!"
     }
 }
