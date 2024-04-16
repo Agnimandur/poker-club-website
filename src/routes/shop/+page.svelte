@@ -11,6 +11,8 @@
 <br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
+<h2 class="shop-subtitle">To purchase an item, either contact a club exec or use the contact form! We will get back to you ASAP</h2>
+
 
 <ul class="shop-list">
   <li class="box">
