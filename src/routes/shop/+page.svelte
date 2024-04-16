@@ -15,7 +15,7 @@
       <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" />
       <div class="overlay">
         <div class="details">
-          <p>Color: Black</	p>
+          <p>Color: Black</p>
           <p>Material: Cotton/Polyester Blend</p>
           <p>Sizes: S, M, L, XL</p>
         </div>
