@@ -6,6 +6,9 @@
 
 <br />
 <br />
+<br />
+<br />
+<br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
 
