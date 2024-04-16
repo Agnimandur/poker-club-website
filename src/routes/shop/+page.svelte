@@ -6,19 +6,17 @@
 
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
 
-<ul>
+<h1 class="shop-title">CMU Poker Club Shop</h1>
+
+<ul class="shop-list">
   <li class="box">
     <div class="image-container">
-      <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" width="300px" />
+      <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" />
       <div class="overlay">
         <div class="details">
-          <p>Color: Black</p>
-          <p>Material: 100% Cotton</p>
+          <p>Color: Black</	p>
+          <p>Material: Cotton/Polyester Blend</p>
           <p>Sizes: S, M, L, XL</p>
         </div>
       </div>
@@ -28,10 +26,10 @@
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/patchT.png" alt="CMU Poker Club patch" width="300px" height="100px" />
+      <img src="/shop/patchT.png" alt="CMU Poker Club patch" />
       <div class="overlay">
         <div class="details">
-          <p>Size: 4" x 1.74"</p>
+		  <p>Size: 4" x 1.74"</p>
           <p>Material: Embroidered</p>
           <p>Adhesive Backing</p>
         </div>
@@ -42,13 +40,13 @@
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" width="300px" />
+      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" />
       <div class="overlay">
         <div class="details">
-          <p>Diameter: 2.55"</p>
-          <p>Thickness: 3/8" </p>
-          <p>Material: Acrylic</p>
-          <p>Perfect for home games</p>
+            <p>Diameter: 2.55"</p>
+            <p>Thickness: 3/8" </p>
+            <p>Material: Acrylic</p>
+            <p>Perfect for home games</p>
         </div>
       </div>
     </div>
@@ -58,15 +56,27 @@
 </ul>
 
 <style>
+  .shop-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .shop-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
   .box {
     list-style-type: none;
-    display: inline-block;
     border: 1px solid #aaa;
     border-radius: 4px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     padding: 1em;
-    margin-right: 20px;
-    margin-top: 20px;
+    width: 30%;
     transition: transform 0.3s ease-in-out;
   }
 
@@ -77,6 +87,12 @@
   .image-container {
     position: relative;
     display: inline-block;
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
   }
 
   .overlay {
