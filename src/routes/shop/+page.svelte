@@ -11,8 +11,6 @@
 <br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
-<h2 class="shop-subtitle">To purchase an item, either contact a club exec or use the contact form! We will get back to you ASAP</h2>
-
 
 <ul class="shop-list">
   <li class="box">
@@ -31,10 +29,10 @@
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/IMG_1046.jpg" alt="CMU Poker Club patch" />
+      <img src="/shop/patchT.png" alt="CMU Poker Club patch" />
       <div class="overlay">
         <div class="details">
-		  <p>Size: 4" x 1.74"</p>
+          <p>Size: 4" x 1.74"</p>
           <p>Material: Embroidered</p>
           <p>Adhesive Backing</p>
         </div>
@@ -48,10 +46,10 @@
       <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" />
       <div class="overlay">
         <div class="details">
-            <p>Diameter: 2.55"</p>
-            <p>Thickness: 3/8" </p>
-            <p>Material: Acrylic</p>
-            <p>Perfect for home games</p>
+          <p>Diameter: 2.55"</p>
+          <p>Thickness: 3/8"</p>
+          <p>Material: Acrylic</p>
+          <p>Perfect for home games</p>
         </div>
       </div>
     </div>
@@ -70,6 +68,7 @@
 
   .shop-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
     margin: 0;
@@ -82,6 +81,7 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     padding: 1em;
     width: 30%;
+    margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
   }
 
@@ -132,5 +132,16 @@
   p {
     margin-top: 5px;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .shop-list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box {
+      width: 80%;
+    }
   }
 </style>
