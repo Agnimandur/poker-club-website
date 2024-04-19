@@ -78,7 +78,7 @@ Ends In: {timeRemaining}</p>
       </div>
     </div>
     <h2>CMU Poker Club Button</h2>
-    <p>$10</p>
+    <p> <s>$15</s> $10</p>
   </li>
 </ul>
 
@@ -92,7 +92,7 @@ Ends In: {timeRemaining}</p>
 
   .sale-timer {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.0em;
     margin-top: -30px;
     margin-bottom: 10px;
     color: #a31bc2;
