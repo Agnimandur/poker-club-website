@@ -1,8 +1,8 @@
 <script>
   import NavBar from '$lib/components/NavBar.svelte';
 
-  let endDate = new Date();
-  endDate.setDate(endDate.getDate() + 7); // Set the end date to one week from now
+  // Set the fixed end date and time (YYYY, MM, DD, HH, MM, SS)
+  const endDate = new Date(2024, 4, 19, 23, 59, 59);
 
   let timeRemaining = '';
 
