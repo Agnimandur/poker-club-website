@@ -1,5 +1,24 @@
 <script>
   import NavBar from '$lib/components/NavBar.svelte';
+
+  let endDate = new Date();
+  endDate.setDate(endDate.getDate() + 7); // Set the end date to one week from now
+
+  let timeRemaining = '';
+
+  function updateTimeRemaining() {
+    let now = new Date().getTime();
+    let distance = endDate - now;
+
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    timeRemaining = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  setInterval(updateTimeRemaining, 1000);
 </script>
 
 <NavBar />
@@ -11,6 +30,8 @@
 <br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
+<p class="purchase-info">To purchase, use the <a href="/contact  ">contact form</a> or contact any exec!!</p>
+<p class="sale-timer">Launch Week Sale Ends In: {timeRemaining}</p>
 
 <ul class="shop-list">
   <li class="box">
@@ -63,6 +84,20 @@
     text-align: center;
     font-size: 2.5em;
     margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sale-timer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    color: #ff0000;
+  }
+
+  .purchase-info {
+    text-align: center;
+    font-size: 1.1em;
     margin-bottom: 40px;
   }
 
