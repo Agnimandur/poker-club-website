@@ -2,7 +2,7 @@
   import NavBar from '$lib/components/NavBar.svelte';
 
   // Set the fixed end date and time (YYYY, MM, DD, HH, MM, SS)
-  const endDate = new Date(2024, 3, 26, 15, 59, 59);
+  const endDate = new Date(2024, 3, 26, 19, 59, 59);
 
   let timeRemaining = '';
 
