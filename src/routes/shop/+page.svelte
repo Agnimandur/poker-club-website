@@ -29,7 +29,7 @@
 <br />
 <br />
 
-<h1 class="shop-title">CMU Poker Club Shop</h1>
+<h1 class="shop-title">CMU Poker Club Merch Shop</h1>
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
 <p class="sale-timer">LAUNCH WEEK SALE! <br>
 Hoodies &rArr; $75 with club membership<br>
