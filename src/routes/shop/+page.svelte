@@ -2,7 +2,7 @@
   import NavBar from '$lib/components/NavBar.svelte';
 
   // Set the fixed end date and time (YYYY, MM, DD, HH, MM, SS)
-  const endDate = new Date(2024, 4, 19, 23, 59, 59);
+  const endDate = new Date(2024, 4, 26, 15, 59, 59);
 
   let timeRemaining = '';
 
@@ -94,7 +94,7 @@ Ends In: {timeRemaining}</p>
     font-size: 1.2em;
     margin-top: -30px;
     margin-bottom: 10px;
-    color: #ff0000;
+    color: #a31bc2;
   }
 
   .purchase-info {
