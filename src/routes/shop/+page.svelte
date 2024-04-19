@@ -30,16 +30,17 @@
 <br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
-<p class="purchase-info">To purchase, use the <a href="/contact  ">contact form</a> or contact any exec!</p>
-<p class="sale-timer">LAUNCH WEEK SALE: Hoodies are now $75 with club membership  <br>
+<p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
+<p class="sale-timer">LAUNCH WEEK SALE: Hoodies are now $75 with club membership<br>
 Dealer Buttons are now $10
-Hoodies also come with your choice of black or white patch <br>
+Hoodies also come with your choice of black or white patch<br>
 Ends In: {timeRemaining}</p>
 
 <ul class="shop-list">
   <li class="box">
     <div class="image-container">
-      <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" />
+      <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
+      <img src="/shop/hoodie2.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
       <div class="overlay">
         <div class="details">
           <p>Color: Black</p>
@@ -53,11 +54,12 @@ Ends In: {timeRemaining}</p>
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/patchT.png" alt="CMU Poker Club patch" />
+      <img src="/shop/patchT.png" alt="CMU Poker Club patch" class="slideshow-image" />
+      <img src="/shop/patch2.png" alt="CMU Poker Club patch" class="slideshow-image" />
       <div class="overlay">
         <div class="details">
           <p>Size: 4" x 1.74"</p>
-          <p> Color: Black, White </p>
+          <p>Color: Black, White</p>
           <p>Material: Embroidered</p>
           <p>Adhesive Backing</p>
         </div>
@@ -68,7 +70,8 @@ Ends In: {timeRemaining}</p>
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" />
+      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
+      <img src="/shop/button2.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
       <div class="overlay">
         <div class="details">
           <p>Diameter: 2.55"</p>
@@ -79,7 +82,7 @@ Ends In: {timeRemaining}</p>
       </div>
     </div>
     <h2>CMU Poker Club Button</h2>
-    <p> <s>$15</s> $10</p>
+    <p><s>$15</s> $10</p>
   </li>
 </ul>
 
@@ -137,6 +140,31 @@ Ends In: {timeRemaining}</p>
   .image-container img {
     width: 100%;
     height: auto;
+  }
+
+  .slideshow-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    animation: slideshow 6s infinite;
+  }
+
+  .slideshow-image:nth-child(2) {
+    animation-delay: 3s;
+  }
+
+  @keyframes slideshow {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
   }
 
   .overlay {
