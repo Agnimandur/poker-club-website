@@ -96,7 +96,7 @@ Ends In: {timeRemaining}</p>
     font-size: 2.0em;
     margin-top: -30px;
     margin-bottom: 10px;
-    color: #a31bc2;
+    color: #C41230;
   }
 
   .purchase-info {
