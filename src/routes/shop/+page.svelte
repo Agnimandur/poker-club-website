@@ -25,7 +25,7 @@
       </div>
     </div>
     <h2>CMU Poker Club Hoodie</h2>
-    <p>$150 ($90 with club membership)</p>
+    <p>$150 (<s>$90</s> $75 with club membership)</p>
   </li>
   <li class="box">
     <div class="image-container">
