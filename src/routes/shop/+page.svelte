@@ -56,6 +56,7 @@ Ends In: {timeRemaining}</p>
       <div class="overlay">
         <div class="details">
           <p>Size: 4" x 1.74"</p>
+          <p> Color: Black, White </p>
           <p>Material: Embroidered</p>
           <p>Adhesive Backing</p>
         </div>
