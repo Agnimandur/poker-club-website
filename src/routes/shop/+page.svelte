@@ -92,7 +92,7 @@ Ends In: {timeRemaining}</p>
 
   .sale-timer {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
     margin-top: -30px;
     margin-bottom: 10px;
     color: #a31bc2;
