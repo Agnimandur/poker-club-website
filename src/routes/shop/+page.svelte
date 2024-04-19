@@ -94,6 +94,7 @@ Ends In: {timeRemaining}</p>
     font-size: 2.5em;
     margin-top: 20px;
     margin-bottom: 40px;
+    font-weight: bold;
   }
 
   .sale-timer {
@@ -102,6 +103,7 @@ Ends In: {timeRemaining}</p>
     margin-top: -30px;
     margin-bottom: 10px;
     color: #C41230;
+    font-weight: bold;
   }
 
   .purchase-info {
