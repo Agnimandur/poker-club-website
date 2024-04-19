@@ -56,8 +56,8 @@ Ends In: {timeRemaining}</p>
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/patchT.png" alt="CMU Poker Club patch" class="slideshow-image" />
       <img src="/shop/patch2.png" alt="CMU Poker Club patch" class="slideshow-image" />
+      <img src="/shop/patchT.png" alt="CMU Poker Club patch" class="slideshow-image" />
       <div class="overlay">
         <div class="details">
           <p>Size: 4" x 1.74"</p>
@@ -72,8 +72,8 @@ Ends In: {timeRemaining}</p>
   </li>
   <li class="box">
     <div class="image-container">
-      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
       <img src="/shop/Button2.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
+      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
       <div class="overlay">
         <div class="details">
           <p>Diameter: 2.55"</p>
