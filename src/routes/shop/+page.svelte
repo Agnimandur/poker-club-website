@@ -33,7 +33,7 @@
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
 <p class="sale-timer">LAUNCH WEEK SALE! <br>
 Hoodies &rArr; $75 with club membership<br>
-Pathces &rArr; Included with Hoodie<br>
+Patches &rArr; Included with Hoodie<br>
 Dealer Buttons &rArr; $10 <br>
 
 Ends In: {timeRemaining}</p>
