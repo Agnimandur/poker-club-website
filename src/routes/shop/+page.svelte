@@ -30,8 +30,10 @@
 <br />
 
 <h1 class="shop-title">CMU Poker Club Shop</h1>
-<p class="purchase-info">To purchase, use the <a href="/contact  ">contact form</a> or contact any exec!!</p>
-<p class="sale-timer">Launch Week Sale Ends In: {timeRemaining}</p>
+<p class="purchase-info">To purchase, use the <a href="/contact  ">contact form</a> or contact any exec!</p>
+<p class="sale-timer">Launch Week Sale! Hoodies are now $75 for club members 
+Hoodies come with your choice of black or white patch
+Ends In: {timeRemaining}</p>
 
 <ul class="shop-list">
   <li class="box">
