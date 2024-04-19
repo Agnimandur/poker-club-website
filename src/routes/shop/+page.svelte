@@ -32,7 +32,7 @@
 <h1 class="shop-title">CMU Poker Club Merch Shop</h1>
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
 <p class="sale-timer">LAUNCH WEEK SALE! <br>
-Hoodies &rArr; $75 with club membership<br>
+Hoodies &rArr; $75 for members, $120 for non-members<br>
 Patches &rArr; Included with Hoodie<br>
 Dealer Buttons &rArr; $10 <br>
 
@@ -52,7 +52,7 @@ Ends In: {timeRemaining}</p>
       </div>
     </div>
     <h2>CMU Poker Club Hoodie</h2>
-    <p>$150 (<s>$90</s> $75 with club membership)</p>
+    <p><s>$150</s> $120 (<s>$90</s> $75 with club membership)</p>
   </li>
   <li class="box">
     <div class="image-container">
