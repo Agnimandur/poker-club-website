@@ -31,13 +31,15 @@
 
 <h1 class="shop-title">CMU Poker Club Merch Shop</h1>
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
-<div class="sale-timer">
-  <p>LAUNCH WEEK SALE! <br>
-  Hoodies &rArr; $75 for members, $120 for non-members<br>
-  Patches &rArr; Included with Hoodie<br>
-  Dealer Buttons &rArr; $10 <br>
+<div class="sale-timer-container">
+  <div class="sale-timer">
+    <p>LAUNCH WEEK SALE! <br>
+    Hoodies &rArr; $75 for members, $120 for non-members<br>
+    Patches &rArr; Included with Hoodie<br>
+    Dealer Buttons &rArr; $10 <br>
 
-  Ends In: {timeRemaining}</p>
+    Ends In: {timeRemaining}</p>
+  </div>
 </div>
 
 <ul class="shop-list">
@@ -99,12 +101,17 @@
     font-weight: bold;
   }
 
+  .sale-timer-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
   .sale-timer {
     display: inline-block;
     border: 3px solid #C41230;
     background-color: #1a1a1a;
     padding: 10px;
-    margin: 0 auto 40px;
     text-align: center;
     font-size: 2.0em;
     color: white;
