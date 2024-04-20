@@ -31,12 +31,14 @@
 
 <h1 class="shop-title">CMU Poker Club Merch Shop</h1>
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
-<p class="sale-timer">LAUNCH WEEK SALE! <br>
-Hoodies &rArr; $75 for members, $120 for non-members<br>
-Patches &rArr; Included with Hoodie<br>
-Dealer Buttons &rArr; $10 <br>
+<div class="sale-timer-container">
+  <p class="sale-timer">LAUNCH WEEK SALE! <br>
+  Hoodies &rArr; $75 for members, $120 for non-members<br>
+  Patches &rArr; Included with Hoodie<br>
+  Dealer Buttons &rArr; $10 <br>
 
-Ends In: {timeRemaining}</p>
+  Ends In: {timeRemaining}</p>
+</div>
 
 <ul class="shop-list">
   <li class="box">
@@ -97,12 +99,19 @@ Ends In: {timeRemaining}</p>
     font-weight: bold;
   }
 
-  .sale-timer {
+  .sale-timer-container {
+    display: inline-block;
+    border: 3px solid #C41230;
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
     text-align: center;
+  }
+
+  .sale-timer {
     font-size: 2.0em;
-    margin-top: -30px;
-    margin-bottom: 10px;
-    color: #C41230;
+    margin: 0;
+    color: white;
     font-weight: bold;
   }
 
@@ -135,80 +144,4 @@ Ends In: {timeRemaining}</p>
     transform: translateY(-5px);
   }
 
-  .image-container {
-    position: relative;
-    width: 100%;
-    padding-top: 100%;
-    overflow: hidden;
-  }
-
-  .slideshow-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    animation: slideshow 6s infinite;
-  }
-
-  .slideshow-image:nth-child(2) {
-    animation-delay: 3s;
-  }
-
-  @keyframes slideshow {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  .image-container:hover .overlay {
-    opacity: 1;
-  }
-
-  .details {
-    text-align: center;
-    line-height: 1.6;
-  }
-
-  h2 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-
-  p {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .shop-list {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .box {
-      width: 80%;
-    }
-  }
-</style>
+  .
