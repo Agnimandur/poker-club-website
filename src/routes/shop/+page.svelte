@@ -37,9 +37,7 @@
     ENDS IN: {timeRemaining} <br> 
     Hoodies &rArr; $75 for members, $120 for non-members<br>
     Patches &rArr; Included with Hoodie<br>
-    Dealer Buttons &rArr; $10 <br>
-
-    Ends In: {timeRemaining}</p>
+    Dealer Buttons &rArr; $10</p>
   </div>
 </div>
 
@@ -107,17 +105,22 @@
     justify-content: center;
     margin-bottom: 40px;
   }
-  
+
   .sale-timer {
     display: inline-block;
     border: 4px solid #C41230;
     background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
+  }
+
+  .sale-timer p {
     font-size: 2.5em;
     color: white;
     font-weight: bold;
+    margin: 0;
   }
+
   .purchase-info {
     text-align: center;
     font-size: 1.1em;
