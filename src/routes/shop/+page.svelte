@@ -102,7 +102,7 @@
   .sale-timer {
     display: inline-block;
     border: 3px solid #C41230;
-    background-color: black;
+    background-color: #1a1a1a;
     padding: 10px;
     margin: 0 auto 40px;
     text-align: center;
