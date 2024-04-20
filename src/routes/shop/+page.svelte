@@ -35,9 +35,9 @@
   <div class="sale-timer">
     <p><b>LAUNCH WEEK SALE! </b><br>
     ENDS IN: {timeRemaining} <br> 
-    Hoodies &rArr; $75 for members, $120 for non-members<br>
-    Patches &rArr; Included with Hoodie<br>
-    Dealer Buttons &rArr; $10</p>
+    Hoodies: $90 for members, $150 for non-members&rArr; $75 for members, $120 for non-members<br>
+    Patches: $3 &rArr; Included with Hoodie<br>
+    Dealer Buttons: $15 &rArr; $10</p>
   </div>
 </div>
 
