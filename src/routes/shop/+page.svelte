@@ -33,7 +33,7 @@
 <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
 <div class="sale-timer-container">
   <div class="sale-timer">
-    <p>LAUNCH WEEK SALE! <br>
+    <p><b>LAUNCH WEEK SALE! </b><br>
     Hoodies &rArr; $75 for members, $120 for non-members<br>
     Patches &rArr; Included with Hoodie<br>
     Dealer Buttons &rArr; $10 <br>
@@ -106,18 +106,17 @@
     justify-content: center;
     margin-bottom: 40px;
   }
-
+  
   .sale-timer {
     display: inline-block;
-    border: 3px solid #C41230;
+    border: 4px solid #C41230;
     background-color: #1a1a1a;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    font-size: 2.0em;
+    font-size: 2.5em;
     color: white;
     font-weight: bold;
   }
-
   .purchase-info {
     text-align: center;
     font-size: 1.1em;
