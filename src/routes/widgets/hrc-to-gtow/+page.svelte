@@ -28,10 +28,6 @@
           }
         }
       } 
-        
-      }
-  
-
     const items = Object.entries(wizard);
     outputText = items.map(([key, value]) => `${key}: ${value}`).join(',');
   }
