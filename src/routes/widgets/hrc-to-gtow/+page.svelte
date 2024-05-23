@@ -69,7 +69,7 @@
   .instructions {
     margin: 20px auto;
     max-width: 800px;
-    text-align: center;
+    text-align: left;
   }
 
   .instructions p {
