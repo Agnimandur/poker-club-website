@@ -88,8 +88,8 @@
   }
   
   textarea {
-    width: 100%;
-    height: 700px;
+    width: 150%;
+    height: 450px;
   }
   
   .convert-btn,
