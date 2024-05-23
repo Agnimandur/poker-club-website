@@ -94,6 +94,7 @@
 				</button>
 				<div class="dropdown-content">
 					<a href={`/widgets/hrc-to-gtow`}>HRC to GTOw Range Converter</a>
+					<a href={`/widgets/tournament-bot`}>Tournament Bot</a>
 				</div>
 			</div>
 			<a href="/contact" class:active={$page.url.pathname === '/contact'}
@@ -186,7 +187,14 @@
 							<span>HRC to GTOw Range Converter</span>
 						</a>
 						<a
-								
+							href="/widgets/tournament-bot"
+							class="textnav"
+							class:active={$page.url.pathname === '/widgets/tournament-bot'}
+							transition:fly={{ y: -15, delay: 50 * 4 }}
+						>
+							<span>Tournament Bot</span>
+						</a>
+						<a
 							href="/contact"
 							class="textnav"
 							class:active={$page.url.pathname === '/contact'}
