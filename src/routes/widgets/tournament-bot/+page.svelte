@@ -56,9 +56,11 @@
 <br />
 <br />
 
-<div class="section">
-	<h2 style="text-align: center;">Tournament Seat View</h2>
-
+<div class="title">
+  <p>
+    Tournament Seat Viewer
+  </p>
+</div>
 	<div class="row">
 		{#each [1,2,3,4] as t}
 			<div class="section column">
@@ -142,7 +144,15 @@
 		padding: 20px;
 		box-sizing: border-box;
 	}
-
+	  .title {
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid red;
+  }
 	label, input {
 		font-size: 18px;
 	}
