@@ -1,4 +1,15 @@
 <script>
+  import NavBar from '$lib/components/NavBar.svelte';
+</script>
+
+<NavBar />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
   let inputText = '';
   let outputText = '';
 
