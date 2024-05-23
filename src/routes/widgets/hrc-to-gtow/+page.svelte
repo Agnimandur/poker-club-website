@@ -66,7 +66,9 @@
 
 <style>
   .instructions {
-    margin-bottom: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
   }
   
   .instructions p {
@@ -76,6 +78,8 @@
   
   .container {
     display: flex;
+    margin: 0 auto;
+    max-width: 800px;
   }
   
   .box {
@@ -98,10 +102,16 @@
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: transform 0.2s;
   }
   
   .convert-btn:hover,
   .copy-btn:hover {
     background-color: #cc0000;
+  }
+  
+  .convert-btn:active,
+  .copy-btn:active {
+    transform: translateY(2px);
   }
 </style>
