@@ -86,6 +86,16 @@
 			<a href="/shop" class:active={$page.url.pathname === '/shop'}
 				>Shop</a
 			>
+			<div class="dropdown">
+				<button class="dropbtn" class:active={$page.url.pathname.startsWith('/widgets')}>
+					<a href="/widgets" style="padding: 0; margin: 0;"
+						>Widgets <i class="fa fa-caret-down" style="margin-left: 2px;" /></a
+					>
+				</button>
+				<div class="dropdown-content">
+					<a href={`/widgets/hrc-to-gtow`}>HRC to GTOw Range Converter</a>
+				</div>
+			</div>
 			<a href="/contact" class:active={$page.url.pathname === '/contact'}
 				>Contact</a
 			>
@@ -158,6 +168,22 @@
 							transition:fly={{ y: -15, delay: 50 * 4 }}
 						>
 							<span>Shop</span>
+						</a>
+						<a
+							href="/widgets"
+							class="textnav"
+							class:active={$page.url.pathname.startsWith('/widgets')}
+							transition:fly={{ y: -15, delay: 50 * 4 }}
+						>
+							<span>Widgets</span>
+						</a>
+						<a
+							href="/widgets/hrc-to-gtow"
+							class="textnav"
+							class:active={$page.url.pathname === '/widgets/hrc-to-gtow'}
+							transition:fly={{ y: -15, delay: 50 * 4 }}
+						>
+							<span>HRC to GTOw Range Converter</span>
 						</a>
 						<a
 								
