@@ -29,7 +29,7 @@
     }
 
     const items = Object.entries(wizard);
-    outputText = items.map(([key, value]) => `${key}: ${value}`).join('\n');
+    outputText = items.map(([key, value]) => `${key}: ${value}`).join(',');
   }
 
   function copyOutput() {
