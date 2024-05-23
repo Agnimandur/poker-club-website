@@ -17,22 +17,35 @@
 
       if (hand < '22' || hand > 'AA') continue;
 
-      if (hand.slice(-1) === 's') {
-        for (const a of 'dhcs') {
-          wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
-        }
-      } else if (hand.length === 2) {
-        for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
-          if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
+      if (hand.length === 2) {
+        if (hand.slice(-1) === 's') {
+          for (const a of 'dhcs') {
+            wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
+          }
+        } else {
+          for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
+            if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
+          }
         }
       } else if (hand.length === 3) {
         const [rank1, rank2, suit] = hand;
-        wizard[`${rank1}${rank2}${suit}`] = freq;
+        const ranks = 'AKQJT98765432';
+        const suits = 'shdc';
+
+        const rank1Index = ranks.indexOf(rank1);
+        const rank2Index = ranks.indexOf(rank2);
+        const suitIndex = suits.indexOf(suit);
+
+        if (rank1Index !== -1 && rank2Index !== -1 && suitIndex !== -1) {
+          for (const s of 'shdc') {
+            wizard[`${ranks[rank1Index]}${s}${ranks[rank2Index]}${s}`] = freq;
+          }
+        }
       }
     }
 
     const items = Object.entries(wizard);
-    outputText = items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('');
+    outputText = items.map(([key, value]) => `${key}: ${value}`).join(',');
   }
 
   function copyOutput() {
