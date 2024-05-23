@@ -10,15 +10,15 @@
 
     for (const line of lines) {
       const items = line.trim().split(',');
-      if (items.length === 0 || items[0] === 'Hand') continue;
+      if (items.length !== 2 || items[0] === 'Hand' || (lines.indexOf(line) === 0 && items[0] === 'Hand' && items[1] === 'Played' && items[2] === 'EV')) continue;
       const hand = items[0];
       const freq = parseFloat(items[1]);
 
-      if (hand.slice(-1) === 's') {
+      if (hand.slice(-1) === 's' && hand.length === 2) {
         for (const a of 'dhcs') {
           wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
         }
-      } else {
+      } else if (hand.length === 2) {
         for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
           if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
         }
@@ -26,7 +26,7 @@
     }
 
     const items = Object.entries(wizard);
-    outputText = items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('');
+    outputText = items.length > 0 ? items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('') : '';
   }
 
   function copyOutput() {
