@@ -1,11 +1,6 @@
-
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <script>
+  import NavBar from '$lib/components/NavBar.svelte';
+
   let inputText = '';
   let outputText = '';
 
@@ -38,6 +33,14 @@
     navigator.clipboard.writeText(outputText);
   }
 </script>
+
+<NavBar />
+
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <div class="container">
   <div class="box">
