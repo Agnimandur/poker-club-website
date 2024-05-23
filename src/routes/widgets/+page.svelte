@@ -41,11 +41,11 @@
 
 <div class="container">
   <div class="box">
-    <h3>Input:</h3>
+    <h3>HRC Range:</h3>
     <textarea bind:value={inputText} on:input={processInput}></textarea>
   </div>
   <div class="box">
-    <h3>Output:</h3>
+    <h3>GTO Wizard Range:</h3>
     <textarea bind:value={outputText} readonly></textarea>
     <button on:click={copyOutput}>Copy</button>
   </div>
