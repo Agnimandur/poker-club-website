@@ -91,8 +91,12 @@
 <style>
   .instructions {
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid red;
   }
 
   .instructions p {
