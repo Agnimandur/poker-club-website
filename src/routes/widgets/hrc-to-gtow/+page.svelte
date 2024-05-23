@@ -28,17 +28,15 @@
           }
         }
       } else if (hand.length === 3) {
-        const [rank1, rank2, suit] = hand;
-        const ranks = 'AKQJT98765432';
-        const suits = 'shdc';
+        const [rank1, rank2, suitedness] = hand;
 
-        const rank1Index = ranks.indexOf(rank1);
-        const rank2Index = ranks.indexOf(rank2);
-        const suitIndex = suits.indexOf(suit);
-
-        if (rank1Index !== -1 && rank2Index !== -1 && suitIndex !== -1) {
-          for (const s of 'shdc') {
-            wizard[`${ranks[rank1Index]}${s}${ranks[rank2Index]}${s}`] = freq;
+        if (suitedness === 's') {
+          for (const a of 'dhcs') {
+            wizard[`${rank1}${a}${rank2}${a}`] = freq;
+          }
+        } else if (suitedness === 'o') {
+          for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
+            if (a !== b) wizard[`${rank1}${a}${rank2}${b}`] = freq;
           }
         }
       }
