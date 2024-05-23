@@ -57,6 +57,7 @@
     <textarea bind:value={inputText}></textarea>
     <button class="convert-btn" on:click={processInput}>Convert</button>
   </div>
+  <div class="spacer"></div>
   <div class="box">
     <h3>GTO Wizard Range:</h3>
     <textarea bind:value={outputText} readonly></textarea>
@@ -70,28 +71,34 @@
     max-width: 800px;
     text-align: center;
   }
-  
+
   .instructions p {
     font-size: 18px;
     line-height: 1.5;
   }
-  
+
   .container {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px;
   }
-  
+
   .box {
     flex: 1;
     padding: 10px;
+    max-width: 500px;
   }
-  
+
+  .spacer {
+    width: 40px;
+  }
+
   textarea {
-    width: 150%;
+    width: 100%;
     height: 450px;
   }
-  
+
   .convert-btn,
   .copy-btn {
     margin-top: 10px;
@@ -104,12 +111,12 @@
     cursor: pointer;
     transition: transform 0.2s;
   }
-  
+
   .convert-btn:hover,
   .copy-btn:hover {
     background-color: #cc0000;
   }
-  
+
   .convert-btn:active,
   .copy-btn:active {
     transform: translateY(2px);
