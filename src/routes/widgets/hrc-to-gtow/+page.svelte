@@ -45,32 +45,63 @@
 <br />
 <br />
 
+<div class="instructions">
+  <p>
+    This tool converts a range exported from Holdem Resources Calculator (HRC) to one importable into GTOWizard. To export a range, right click the grid in HRC and select copy. To import a range, paste it into the option in GTO wizard (AI Solve).
+  </p>
+</div>
+
 <div class="container">
   <div class="box">
     <h3>HRC Range:</h3>
     <textarea bind:value={inputText}></textarea>
-    <button on:click={processInput}>Convert</button>
+    <button class="convert-btn" on:click={processInput}>Convert</button>
   </div>
   <div class="box">
     <h3>GTO Wizard Range:</h3>
     <textarea bind:value={outputText} readonly></textarea>
-    <button on:click={copyOutput}>Copy</button>
+    <button class="copy-btn" on:click={copyOutput}>Copy</button>
   </div>
 </div>
 
 <style>
+  .instructions {
+    margin-bottom: 20px;
+  }
+  
+  .instructions p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
   .container {
     display: flex;
   }
+  
   .box {
     flex: 1;
     padding: 10px;
   }
+  
   textarea {
     width: 100%;
     height: 200px;
   }
-  button {
+  
+  .convert-btn,
+  .copy-btn {
     margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .convert-btn:hover,
+  .copy-btn:hover {
+    background-color: #cc0000;
   }
 </style>
