@@ -10,15 +10,15 @@
 
     for (const line of lines) {
       const items = line.trim().split(',');
-      if (items.length !== 2 || (lines.indexOf(line) === 0 && items[0] === 'Hand' && items[1] === 'Played')) continue;
+      if (items.length === 0 || items[0] === 'Hand') continue;
       const hand = items[0];
       const freq = parseFloat(items[1]);
 
-      if (hand.slice(-1) === 's' && hand.length === 2) {
+      if (hand.slice(-1) === 's') {
         for (const a of 'dhcs') {
           wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
         }
-      } else if (hand.length === 2) {
+      } else {
         for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
           if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
         }
