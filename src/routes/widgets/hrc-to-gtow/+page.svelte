@@ -7,6 +7,7 @@
   function processInput() {
     const lines = inputText.split('\n');
     const wizard = {};
+    let inRange = false;
 
     for (const line of lines) {
       const items = line.trim().split(',');
@@ -15,9 +16,13 @@
       const hand = items[0];
       const freq = parseFloat(items[1]);
 
-      if (hand < '22' || hand > 'AA') continue;
+      if (hand === '22') {
+        inRange = true;
+      }
 
+      if (!inRange) continue;
 
+      if (hand.length === 2) {
         if (hand.slice(-1) === 's') {
           for (const a of 'dhcs') {
             wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
@@ -27,7 +32,25 @@
             if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
           }
         }
-      } 
+      } else if (hand.length === 3) {
+        const [rank1, rank2, suitedness] = hand;
+
+        if (suitedness === 's') {
+          for (const a of 'dhcs') {
+            wizard[`${rank1}${a}${rank2}${a}`] = freq;
+          }
+        } else if (suitedness === 'o') {
+          for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
+            if (a !== b) wizard[`${rank1}${a}${rank2}${b}`] = freq;
+          }
+        }
+      }
+
+      if (hand === 'AA') {
+        inRange = false;
+      }
+    }
+
     const items = Object.entries(wizard);
     outputText = items.map(([key, value]) => `${key}: ${value}`).join(',');
   }
