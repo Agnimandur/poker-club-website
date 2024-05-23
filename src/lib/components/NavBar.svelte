@@ -94,7 +94,7 @@
 				</button>
 				<div class="dropdown-content">
 					<a href={`/widgets/hrc-to-gtow`}>HRC to GTOw Range Converter</a>
-					<a href={`/widgets/tournament-bot`}>Tournament Bot</a>
+					<a href={`/widgets/tournament-bot`}>Tournament Seat View</a>
 				</div>
 			</div>
 			<a href="/contact" class:active={$page.url.pathname === '/contact'}
