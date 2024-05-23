@@ -45,7 +45,8 @@
 <div class="container">
   <div class="box">
     <h3>HRC Range:</h3>
-    <textarea bind:value={inputText} on:input={processInput}></textarea>
+    <textarea bind:value={inputText}></textarea>
+    <button on:click={processInput}>Convert</button>
   </div>
   <div class="box">
     <h3>GTO Wizard Range:</h3>
@@ -65,5 +66,8 @@
   textarea {
     width: 100%;
     height: 200px;
+  }
+  button {
+    margin-top: 10px;
   }
 </style>
