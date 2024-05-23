@@ -10,7 +10,7 @@
 
     for (const line of lines) {
       const items = line.trim().split(',');
-      if (items.length === 0 || items[0] === 'Hand') continue;
+      if (items[0] === 'Hand') continue;
       const hand = items[0];
       const freq = parseFloat(items[1]);
 
