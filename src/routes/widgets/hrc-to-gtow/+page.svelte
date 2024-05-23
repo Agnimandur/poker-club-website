@@ -10,7 +10,7 @@
 
     for (const line of lines) {
       const items = line.trim().split(',');
-      if (items.length !== 2 || items[0] === 'Hand' || (lines.indexOf(line) === 0 && items[0] === 'Hand' && items[1] === 'Played' && items[2] === 'EV')) continue;
+      if (items.length !== 2 || (lines.indexOf(line) === 0 && items[0] === 'Hand' && items[1] === 'Played')) continue;
       const hand = items[0];
       const freq = parseFloat(items[1]);
 
@@ -26,7 +26,7 @@
     }
 
     const items = Object.entries(wizard);
-    outputText = items.length > 0 ? items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('') : '';
+    outputText = items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('');
   }
 
   function copyOutput() {
