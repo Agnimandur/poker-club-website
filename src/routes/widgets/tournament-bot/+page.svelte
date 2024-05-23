@@ -57,7 +57,7 @@
 <br />
 
 <div class="section">
-	<h2 style="text-align: center;">Tournament Director Bot</h2>
+	<h2 style="text-align: center;">Tournament Seat View</h2>
 
 	<div class="row">
 		{#each [1,2,3,4] as t}
