@@ -10,9 +10,12 @@
 
     for (const line of lines) {
       const items = line.trim().split(',');
-      if (items[0] === 'Hand') continue;
+      if (items.length !== 3) continue;
+
       const hand = items[0];
       const freq = parseFloat(items[1]);
+
+      if (hand < '22' || hand > 'AA') continue;
 
       if (hand.slice(-1) === 's') {
         for (const a of 'dhcs') {
