@@ -29,7 +29,7 @@
     }
 
     const items = Object.entries(wizard);
-    outputText = items.map(([key, value], index) => `${key}: ${value}${index < items.length - 1 ? ',' : ''}`).join('');
+    outputText = items.map(([key, value]) => `${key}: ${value}`).join('\n');
   }
 
   function copyOutput() {
