@@ -89,7 +89,7 @@
   
   textarea {
     width: 100%;
-    height: 200px;
+    height: 700px;
   }
   
   .convert-btn,
