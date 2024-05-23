@@ -17,7 +17,7 @@
 
       if (hand < '22' || hand > 'AA') continue;
 
-      if (hand.length === 2) {
+
         if (hand.slice(-1) === 's') {
           for (const a of 'dhcs') {
             wizard[`${hand[0]}${a}${hand[1]}${a}`] = freq;
@@ -27,20 +27,10 @@
             if (a !== b) wizard[`${hand[0]}${a}${hand[1]}${b}`] = freq;
           }
         }
-      } else if (hand.length === 3) {
-        const [rank1, rank2, suitedness] = hand;
-
-        if (suitedness === 's') {
-          for (const a of 'dhcs') {
-            wizard[`${rank1}${a}${rank2}${a}`] = freq;
-          }
-        } else if (suitedness === 'o') {
-          for (const [a, b] of [['d', 'h'], ['d', 'c'], ['d', 's'], ['h', 'c'], ['h', 's'], ['c', 's']]) {
-            if (a !== b) wizard[`${rank1}${a}${rank2}${b}`] = freq;
-          }
-        }
+      } 
+        
       }
-    }
+  
 
     const items = Object.entries(wizard);
     outputText = items.map(([key, value]) => `${key}: ${value}`).join(',');
