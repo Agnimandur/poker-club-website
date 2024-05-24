@@ -169,14 +169,6 @@
 							<span>Shop</span>
 						</a>
 						<a
-							href="/widgets"
-							class="textnav"
-							class:active={$page.url.pathname.startsWith('/widgets')}
-							transition:fly={{ y: -15, delay: 50 * 4 }}
-						>
-							<span>Widgets</span>
-						</a>
-						<a
 							href="/widgets/hrc-to-gtow"
 							class="textnav"
 							class:active={$page.url.pathname === '/widgets/hrc-to-gtow'}
