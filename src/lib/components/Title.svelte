@@ -30,7 +30,7 @@
 		width: 100%;
 		background: url('/mainbg.jpg');
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
