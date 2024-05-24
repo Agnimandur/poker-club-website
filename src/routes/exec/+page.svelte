@@ -10,6 +10,8 @@
 <br/>
 <br/>
 <br/>
+<h2 style="text-align: center;">Exec Board</h2>
+<div class="flex"><div style="width: 50%;"><hr /></div></div>
 <ol>
 	{#each exec_entries as [name,exec]}
 		<li>
