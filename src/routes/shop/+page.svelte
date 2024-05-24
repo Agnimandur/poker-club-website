@@ -10,63 +10,62 @@
 <br />
 <br />
 
-<div class="title-container">
-  <div class="title-box">
-    <h1 class="shop-title">CMU Poker Club Merch Shop</h1>
-    <p class="purchase-info">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</p>
-  </div>
+<div class="section">
+	<h2 style="text-align: center;">Merch Store</h2>
+	<div class="flex"><div style="width: 50%;"><hr /></div></div>
+  <h3 style="text-align: center;">To purchase, use the <a href="/contact">contact form</a> or contact any exec!</h3>
+  <br />
+  <br />
+  <ul class="shop-list">
+    <li class="box">
+      <div class="image-container">
+        <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
+        <img src="/shop/Hoodie2.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
+        <div class="overlay">
+          <div class="details">
+            <p>Color: Black</p>
+            <p>Material: Cotton/Polyester Blend</p>
+            <p>Sizes: S, M, L, XL</p>
+          </div>
+        </div>
+      </div>
+      <h2>CMU Poker Club Hoodie</h2>
+      <p>$150 ($90 with club membership)</p>
+    </li>
+    <li class="box">
+      <div class="image-container">
+        <img src="/shop/patch2.png" alt="CMU Poker Club patch" class="slideshow-image" />
+        <img src="/shop/patchT.png" alt="CMU Poker Club patch" class="slideshow-image" />
+        <div class="overlay">
+          <div class="details">
+            <p>Size: 4" x 1.74"</p>
+            <p>Color: Black, White</p>
+            <p>Material: Embroidered</p>
+            <p>Adhesive Backing</p>
+          </div>
+        </div>
+      </div>
+      <h2>CMU Poker Club Patch</h2>
+      <p>$3</p>
+    </li>
+    <li class="box">
+      <div class="image-container">
+        <img src="/shop/Button2.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
+        <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
+        <div class="overlay">
+          <div class="details">
+            <p>Diameter: 2.55"</p>
+            <p>Thickness: 3/8"</p>
+            <p>Material: Acrylic</p>
+            <p>Perfect for home games</p>
+          </div>
+        </div>
+      </div>
+      <h2>CMU Poker Club Button</h2>
+      <p>$15</p>
+    </li>
+  </ul>
 </div>
-
-<ul class="shop-list">
-  <li class="box">
-    <div class="image-container">
-      <img src="/shop/hoodieT.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
-      <img src="/shop/Hoodie2.png" alt="CMU Poker Club hoodie" class="slideshow-image" />
-      <div class="overlay">
-        <div class="details">
-          <p>Color: Black</p>
-          <p>Material: Cotton/Polyester Blend</p>
-          <p>Sizes: S, M, L, XL</p>
-        </div>
-      </div>
-    </div>
-    <h2>CMU Poker Club Hoodie</h2>
-    <p>$150 ($90 with club membership)</p>
-  </li>
-  <li class="box">
-    <div class="image-container">
-      <img src="/shop/patch2.png" alt="CMU Poker Club patch" class="slideshow-image" />
-      <img src="/shop/patchT.png" alt="CMU Poker Club patch" class="slideshow-image" />
-      <div class="overlay">
-        <div class="details">
-          <p>Size: 4" x 1.74"</p>
-          <p>Color: Black, White</p>
-          <p>Material: Embroidered</p>
-          <p>Adhesive Backing</p>
-        </div>
-      </div>
-    </div>
-    <h2>CMU Poker Club Patch</h2>
-    <p>$3</p>
-  </li>
-  <li class="box">
-    <div class="image-container">
-      <img src="/shop/Button2.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
-      <img src="/shop/button.jpg" alt="CMU Poker Club dealer button" class="slideshow-image" />
-      <div class="overlay">
-        <div class="details">
-          <p>Diameter: 2.55"</p>
-          <p>Thickness: 3/8"</p>
-          <p>Material: Acrylic</p>
-          <p>Perfect for home games</p>
-        </div>
-      </div>
-    </div>
-    <h2>CMU Poker Club Button</h2>
-    <p>$15</p>
-  </li>
-</ul>
-
 <style>
   .title-container {
     display: flex;
@@ -81,7 +80,6 @@
     padding: 20px;
     text-align: center;
   }
-
   .shop-title {
     font-size: 2.5em;
     color: white;

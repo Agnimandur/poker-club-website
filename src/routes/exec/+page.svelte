@@ -11,22 +11,26 @@
 <br/>
 <br/>
 <div class="section">
-<h2 style="text-align: center;">Exec Board</h2>
+	<h2 style="text-align: center;">Exec Board</h2>
+	<div class="flex"><div style="width: 50%;"><hr /></div></div>
+	<ol>
+		{#each exec_entries as [name,exec]}
+			<li>
+				<h3 style="display:inline-block;">
+					<img src="/execs/{exec.id}.png" style="width:20%; vertical-align:middle; border-radius: 30%;" alt="Exec" /> 
+					{name}
+					<a target="_blank" rel="noreferrer" href={exec.linkedin}><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
+				</h3>
+				<p>{exec.description}</p>
+			</li>
+		{/each}
+	</ol>
 </div>
-<div class="flex"><div style="width: 50%;"><hr /></div></div>
-<ol>
-	{#each exec_entries as [name,exec]}
-		<li>
-			<h3 style="display:inline-block;">
-				<img src="/execs/{exec.id}.png" style="width:20%; vertical-align:middle; border-radius: 30%;" alt="Exec" /> 
-				{name}
-				<a target="_blank" rel="noreferrer" href={exec.linkedin}><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
-			</h3>
-			<p>{exec.description}</p>
-		</li>
-	{/each}
-</ol>
 
+<div class="section">
+	<h2 style="text-align: center;">Alumni</h2>
+	<div class="flex"><div style="width: 50%;"><hr /></div></div>
+</div>
 <style>
 	* {
 		box-sizing: border-box;
