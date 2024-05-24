@@ -17,7 +17,7 @@
 		</div>
 		<div class="col">
 			<h4>Links</h4>
-			<p><a href="/events">Events</a></p>
+			<p><a href="/events/calendar">Events</a></p>
 			<p><a href="/exec">Exec Board</a></p>
 			<p><a href="/#faq">FAQs</a></p>
 			<p><a href="/sponsors">Sponsors</a></p>
