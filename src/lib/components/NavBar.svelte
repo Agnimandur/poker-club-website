@@ -12,7 +12,6 @@
 	}
 
 	const MOBILE = 700;
-	const TITLE_BREAKPOINT = MOBILE + 350;
 </script>
 
 <svelte:head>
@@ -39,8 +38,10 @@
 		<a style="text-decoration: none;" href="/">
 			<img src="/transparentpokerclublogo.png" alt="poker club logo" />
 			<h1 style="font-size: 24px;">
-				{#if windowWidth > TITLE_BREAKPOINT}
+				{#if windowWidth > MOBILE + 700}
 					CARNEGIE MELLON UNIVERSITY POKER CLUB
+				{:else if windowWidth > MOBILE}
+					CMU POKER CLUB
 				{:else}
 					POKER CLUB
 				{/if}

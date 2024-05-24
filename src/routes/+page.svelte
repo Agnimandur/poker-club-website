@@ -46,7 +46,7 @@
 			</p>
 			<br />
 			<br />
-			<FancyButton title="View Calendar" href="/calendar" />
+			<FancyButton title="View Calendar" href="/events/calendar" />
 		</div>
 		<div class="col">
 			<p><strong>2024 SIG Tournament: 6 tables remain!</strong></p>
