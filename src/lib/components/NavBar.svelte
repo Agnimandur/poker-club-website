@@ -66,10 +66,11 @@
 			>
 
 			<div class="dropdown">
-				<button class="dropbtn" class:active={$page.url.pathname === '/events'}>
+				<button class="dropbtn">
 					Events <i class="fa fa-caret-down" style="margin-left: 2px;" />
 				</button>
 				<div class="dropdown-content">
+					<a href={`/events/calendar`}>Calendar</a>
 					<a href={`/events/gbm`}>General Body Meetings</a>
 					<a href={`/events/tournaments`}>Tournaments</a>
 					<a href={`https://cmudsc.com/pokerai`}>Poker AI Contest</a>
@@ -112,7 +113,7 @@
 						</a>
 
 						<a
-							href="/events"
+							href="/events/calendar"
 							class="textnav"
 							class:active={$page.url.pathname === '/events'}
 							transition:fly={{ y: -15, delay: 50 * 2 }}
