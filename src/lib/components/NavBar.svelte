@@ -70,6 +70,7 @@
 					Events <i class="fa fa-caret-down" style="margin-left: 2px;" />
 				</button>
 				<div class="dropdown-content">
+					<a href={`/events/calendar`}>Calendar</a>
 					<a href={`/events/gbm`}>General Body Meetings</a>
 					<a href={`/events/tournaments`}>Tournaments</a>
 					<a href={`https://cmudsc.com/pokerai`}>Poker AI Contest</a>
