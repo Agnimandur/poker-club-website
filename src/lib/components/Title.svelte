@@ -28,7 +28,7 @@
 	}
 	.homeTitleDiv {
 		width: 100%;
-		background: url('/tournament.png');
+		background: url('/mainbg.jpg');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
