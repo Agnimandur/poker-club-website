@@ -115,7 +115,7 @@
 						<a
 							href="/events/calendar"
 							class="textnav"
-							class:active={$page.url.pathname === '/events'}
+							class:active={$page.url.pathname === '/events/calendar'}
 							transition:fly={{ y: -15, delay: 50 * 2 }}
 						>
 							<span>Calendar</span>
