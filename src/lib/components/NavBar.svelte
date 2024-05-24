@@ -67,9 +67,7 @@
 
 			<div class="dropdown">
 				<button class="dropbtn" class:active={$page.url.pathname === '/events'}>
-					<a href="/events" style="padding: 0; margin: 0;"
-						>Events <i class="fa fa-caret-down" style="margin-left: 2px;" /></a
-					>
+					Events <i class="fa fa-caret-down" style="margin-left: 2px;" />
 				</button>
 				<div class="dropdown-content">
 					<a href={`/events/gbm`}>General Body Meetings</a>
@@ -88,9 +86,7 @@
 			>
 			<div class="dropdown">
 				<button class="dropbtn" class:active={$page.url.pathname.startsWith('/widgets')}>
-					<a href="/widgets" style="padding: 0; margin: 0;"
-						>Widgets <i class="fa fa-caret-down" style="margin-left: 2px;" /></a
-					>
+					Widgets <i class="fa fa-caret-down" style="margin-left: 2px;" />
 				</button>
 				<div class="dropdown-content">
 					<a href={`/widgets/hrc-to-gtow`}>HRC to GTOw Range Converter</a>
