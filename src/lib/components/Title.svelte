@@ -32,7 +32,6 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
-		background-attachment: fixed;
 	}
 	.homeTitleDiv .box {
 		color: var(--white);
