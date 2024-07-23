@@ -17,11 +17,11 @@
 	<div class="col">
 		<h2>About the Club</h2>
 		<div style="width: 50%;"><hr /></div>
-		<p> The CMU Poker Club strives to be a hub for the poker community at Carnegie Mellon University to meet, learn, and play.</p>
+		<p> The Poker Club at Carnegie Mellon University is the hub for the poker community at Carnegie Mellon University to meet, learn, and play. </p>
 		<br />
-		<p>We aim to engage all manner of poker players with a wide array of events that include everything from charity tournaments and interactive workshops to guest speakers and networking opportunities.</p>
+		<p>We engage undergraduate and graduate students alike with varying poker backgrounds, from new players to those with professional tournament experience. We meet to play tournaments, hold workshops, and hear guest speakers.</p>
 		<br />
-		<p>Outside of CMU, we seek to build lasting connections with trading firms and other companies that are interested in students with the strategic and analytical skills developed through poker.</p>
+		<p>We are also committed to building relationships with trading and tech companies that rely on the quantitative and analytical skills poker demands for their business.</p>
 		<br />
 		<SignUpButton />
 	</div>
