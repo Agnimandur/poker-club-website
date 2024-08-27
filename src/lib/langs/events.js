@@ -1,5 +1,12 @@
 const eventData = [
     {
+        "title": "GBM",
+        "location": "UC Rangos 2",
+        "date": "2024-08-31",
+        "time": "16:30:00",
+        "url": "/events/gbm"
+    },
+    {
         "title": "MIT Pokerfest",
         "location": "MIT",
         "date": "2024-04-06",
@@ -224,13 +231,13 @@ const eventData = [
 ];
 
 /**
- * @param {{ title: string; location: string; date: string; time: string; url: string;}[]} items
+ * @param {{ title: string; location?: string; date: string; time: string; url: string;}[]} items
  */
 function constructEvents(items) {
     let construct = [];
     for (const item of items) {
         construct.push({"title": item["title"], "start": item["date"] + "T" + item["time"], "url": item["url"]});
-        construct.push({"title": item["location"], "start": item["date"]});
+        if (item["location"]) construct.push({"title": item["location"], "start": item["date"]});
     }
     return construct;
 };
