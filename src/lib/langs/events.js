@@ -3,7 +3,7 @@ const eventData = [
         "title": "GBM",
         "location": "UC Rangos 2",
         "date": "2024-08-31",
-        "time": "16:30:00",
+        "time": "16:00:00",
         "url": "/events/gbm"
     },
     {
