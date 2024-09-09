@@ -2,12 +2,12 @@
     "Jane Street": {
         "id": "janestreet",
         "url": "https://www.janestreet.com/",
-        "description": "Jane Street is a quantitative trading firm with offices worldwide. We hire smart, humble people who love to solve problems, build systems, and test theories. You’ll learn something new every day in our office—whether it’s connecting with a colleague to share perspectives, or participating in a talk, class, or game night. Our success is driven by our people and we never stop improving."
+        "description": "Jane Street is a quantitative trading firm with offices worldwide. We hire smart, humble people who love to solve problems, build systems, and test theories. You'll learn something new every day in our office—whether it's connecting with a colleague to share perspectives, or participating in a talk, class, or game night. Our success is driven by our people and we never stop improving."
     },
-    "SIG Susquehanna": {
-        "id": "sig",
-        "url": "https://sig.com/",
-        "description": "SIG is a global quantitative trading firm founded with a growth mindset and an analytical approach to decision making. As one of the largest proprietary trading firms in the world, SIG benefits the financial markets by providing liquidity and ensuring competitive prices for buyers and sellers. SIG brings together the brightest minds, the best technology, and an expansive library of data to design and implement quantitative trading strategies that make us leaders in the financial markets."
+    "Hudson River Trading": {
+        "id": "hrt",
+        "url": "https://www.hudsonrivertrading.com/",
+        "description": "Hudson River Trading is a multi-asset class quantitative trading firm that provides liquidity on global markets and directly to our clients. We have built one of the world's most advanced computing environments for research and development, modeling, and risk management, and are at the forefront of technical innovation for financial markets everywhere. We are thoughtful market leaders, committed to the health and longevity of global markets."
     },
     "Jump Trading": {
         "id": "jump",
