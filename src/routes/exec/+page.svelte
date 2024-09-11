@@ -37,7 +37,11 @@
 				<h3 style="display:inline-block;">
 					<img src="/alums/{alum.id}.png" style="width:20%; vertical-align:middle; border-radius: 30%;" alt="Alumni Exec" /> 
 					{name}
-					<a target="_blank" rel="noreferrer" href={alum.linkedin}><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
+					{#if alum.linkedin}
+						<a target="_blank" rel="noreferrer" href={alum.linkedin}>
+							<i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
+						</a>
+					{/if}
 				</h3>
 				<p>{alum.description}</p>
 			</li>

@@ -1,42 +1,36 @@
 {
     "Daniel Thinfen": {
         "id": "daniel",
-        "description": "Daniel (CS '26) helps with the day to day operations of poker club. Outside of poker, he enjoys skiing, golfing, and ultimate frisbee.",
+        "description": "CS '26",
         "linkedin": "https://www.linkedin.com/in/danielthinfen/"
     },
     "Ethan Taylor": {
         "id": "ethan",
-        "description": "Ethan (Business '24) helps improve the social aspect of poker club. He is also involved with the Undergraduate Consulting Club.",
+        "description": "Business '24",
         "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
-    },
-    "Allen Yang": {
-        "id": "allen",
-        "description": "Allen (Math & CS '27) is a poker enthusiast who won our 2023 Heads Up Tournament. Outside of poker club, he is involved with CMU's premier math contest: CMIMC.",
-        "linkedin": "https://www.linkedin.com/in/allen-yang-61703a282/"
     },
     "Andrew Park": {
         "id": "andrew",
-        "description": "Andy is a PhD student at CMU SCS. He is broadly interested in theoretical and applied cryptography.",
+        "description": "PhD CS '26",
         "linkedin": "https://www.linkedin.com/in/andrew-p-901152a6/"
     },
     "Anthony Jiang": {
         "id": "anthony",
-        "description": "Anthony (IS '24) was a committed poker club member and cash game player, who reached Radiant in Valorant.",
-        "linkedin": ""
+        "description": "IS '24"
     },
     "David Krajewski": {
         "id": "david",
-        "description": "David (CS '25) is currently interested in the world of AI and startups.",
+        "description": "CS '25",
         "linkedin": "https://www.linkedin.com/in/david-krajewski-06098b57/"
     },
     "Nakul Goenka": {
         "id": "nakul",
-        "description": "Nakul (ECE '22) played an important role in reviving poker club in 2022.",
+        "description": "ECE '22",
         "linkedin": "https://www.linkedin.com/in/nakulneerajgoenka/"
     },
     "Samvitti Sharma": {
         "id": "samvitti",
-        "description": "Vitti (CS '25) played an important role in reviving poker club in 2022.",
+        "description": "CS '25",
         "linkedin": "https://www.linkedin.com/in/samvitti-sharma-7a35b3225/"   
     }
 }
