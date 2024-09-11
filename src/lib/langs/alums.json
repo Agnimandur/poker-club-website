@@ -1,0 +1,17 @@
+{
+    "Daniel Thinfen": {
+        "id": "daniel",
+        "description": "Daniel (CS '26) helps with the day to day operations of poker club. Outside of poker, he enjoys skiing, golfing, and ultimate frisbee.",
+        "linkedin": "https://www.linkedin.com/in/danielthinfen/"
+    },
+    "Ethan Taylor": {
+        "id": "ethan",
+        "description": "Ethan (Business '24) helps improve the social aspect of poker club. He is also involved with the Undergraduate Consulting Club.",
+        "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
+    },
+    "Allen Yang": {
+        "id": "allen",
+        "description": "Allen (Math & CS '27) is a poker enthusiast who won our 2023 Heads Up Tournament. Outside of poker club, he is involved with CMU's premier math contest: CMIMC.",
+        "linkedin": "https://www.linkedin.com/in/allen-yang-61703a282/"
+    }
+}

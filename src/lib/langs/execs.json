@@ -14,24 +14,34 @@
         "description": "Mason (ECE '25) has been an active figure in CMU poker club since his freshman year, helping to facilitate and run club events. Outside of poker, he loves Hip Hop, skiing, mountain biking, and coding.",
         "linkedin": "https://www.linkedin.com/in/mason-stark-3671671b5/"
     },
-    "Daniel Thinfen": {
-        "id": "daniel",
-        "description": "Daniel (CS '26) helps with the day to day operations of poker club. Outside of poker, he enjoys skiing, golfing, and ultimate frisbee.",
-        "linkedin": "https://www.linkedin.com/in/danielthinfen/"
-    },
-    "Ethan Taylor": {
-        "id": "ethan",
-        "description": "Ethan (Business '24) helps improve the social aspect of poker club. He is also involved with the Undergraduate Consulting Club.",
-        "linkedin": "https://www.linkedin.com/in/ethanbtaylor/"
-    },
     "Jeffery Guo": {
         "id": "jeffery",
         "description": "Jeffery (Econ '27) has been instrumental in introducing poker to underclassmen at CMU.",
         "linkedin": "https://www.linkedin.com/in/jeffery-guo-5b3218239/"
     },
-    "Allen Yang": {
-        "id": "allen",
-        "description": "Allen (Math & CS '27) is a poker enthusiast who won our 2023 Heads Up Tournament. Outside of poker club, he is involved with CMU's premier math contest: CMIMC.",
-        "linkedin": "https://www.linkedin.com/in/allen-yang-61703a282/"
+    "Oliver Zhang": {
+        "id": "oliver",
+        "description": "Oliver (CS '26) helps to organize and run tournaments more frequently.",
+        "linkedin": "https://www.linkedin.com/in/tiannan-zhang-111581201/"
+    },
+    "Anya Bindra": {
+        "id": "anya",
+        "description": "Anya (ECE '25) enjoys the strategic decision-making process of poker and joined the club to organize more games and play in tournaments. In her free time, she likes traveling, hiking and investing.",
+        "linkedin": "https://www.linkedin.com/in/anyabindra/"
+    },
+    "Nick Caggiano": {
+        "id": "nicholas",
+        "description": "Nick (Business '26) enjoys making poker videos under the name @J7enjoyer and promotes the game through his entertaining and educational content.",
+        "linkedin": "https://www.linkedin.com/in/nicholas-caggiano-2b1717296/"
+    },
+    "Lillian Hao": {
+        "id": "lillian",
+        "description": "Lillian (HCI and Business '25) has been in the Poker Club since her junior year, and she helps organize club events and the club's social media. She enjoys dance, skiing, and watching movies/Youtube in her free time.",
+        "linkedin": "https://www.linkedin.com/in/lillian-hao"
+    },
+    "Steve Lee": {
+        "id": "steve",
+        "description": "Steve (ChemE '27) helps improve the social aspect of poker club.",
+        "linkedin": "https://www.linkedin.com/in/soo-hyun-lee-61b3a424b/"
     }
 }
