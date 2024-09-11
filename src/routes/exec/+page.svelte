@@ -1,8 +1,9 @@
 <script>
 	import NavBar from '$lib/components/NavBar.svelte';
-
-	import execs from "$lib/langs/execs.json"
+	import execs from "$lib/langs/execs.json";
+	import alums from "$lib/langs/alums.json";
 	let exec_entries = Object.entries(execs);
+	let alum_entries = Object.entries(alums);
 </script>
 
 <NavBar />
@@ -30,6 +31,18 @@
 <div class="section">
 	<h2 style="text-align: center;">Alumni</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
+	<ol>
+		{#each alum_entries as [name,alum]}
+			<li>
+				<h3 style="display:inline-block;">
+					<img src="/alums/{alum.id}.png" style="width:20%; vertical-align:middle; border-radius: 30%;" alt="Alumni Exec" /> 
+					{name}
+					<a target="_blank" rel="noreferrer" href={alum.linkedin}><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
+				</h3>
+				<p>{alum.description}</p>
+			</li>
+		{/each}
+	</ol>
 </div>
 <style>
 	* {
