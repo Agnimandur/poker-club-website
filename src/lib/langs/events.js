@@ -1,5 +1,12 @@
 const eventData = [
     {
+        "title": "GBM",
+        "location": "UC McKenna",
+        "date": "2024-09-14",
+        "time": "15:00:00",
+        "url": "/events/gbm"
+    },
+    {
         "title": "Edu Session",
         "location": "UC Danforth",
         "date": "2024-09-07",
