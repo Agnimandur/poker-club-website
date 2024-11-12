@@ -77,7 +77,7 @@
 </div>
 
 <div class="section">
-	<h2 style="text-align: center;">Sponsors</h2>
+	<h2 style="text-align: center;">CMU Poker Club is supported by:</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
 	<div class="grid-four sponsor">
 		{#each sponsor_entries as [name,company]}
