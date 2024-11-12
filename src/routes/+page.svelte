@@ -79,7 +79,7 @@
 <div class="section">
 	<h2 style="text-align: center;">Sponsors</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
-	<div class="grid-three sponsor">
+	<div class="grid-four sponsor">
 		{#each sponsor_entries as [name,company]}
 			<div>
 				<a href="/sponsors"
@@ -87,7 +87,7 @@
 					<div class="flex">
 						<img
 							src="/sponsors/{company.id}.png"
-							style="width: 200px; height: 200px;object-fit: cover;"
+							style="height: 200px;object-fit: cover;"
 							alt="{name} logo"
 						/>
 					</div>
