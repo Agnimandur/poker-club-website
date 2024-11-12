@@ -1,5 +1,33 @@
 const eventData = [
     {
+        "title": "Fall Main Event (Day 2)",
+        "location": "TEP 3808",
+        "date": "2024-11-10",
+        "time": "15:00:00",
+        "url": "/events/tournaments"
+    },
+    {
+        "title": "Fall Main Event (Day 1)",
+        "location": "Online",
+        "date": "2024-11-10",
+        "time": "12:00:00",
+        "url": "https://www.pokernow.club/mtt/2024-fall-main-event-swPt5_luA8"
+    },
+    {
+        "title": "Fall Main Event (Day 1)",
+        "location": "Tepper Simmons",
+        "date": "2024-11-09",
+        "time": "19:00:00",
+        "url": "/events/tournaments"
+    },
+    {
+        "title": "Tournanment Edu Session",
+        "location": "TEP 3808",
+        "date": "2024-11-03",
+        "time": "16:00:00",
+        "url": "/events/gbm"
+    },
+    {
         "title": "GBM",
         "location": "UC McKenna",
         "date": "2024-10-06",
