@@ -15,10 +15,10 @@
 <br/>
 
 <div class="section">
-	<h2 style="text-align: center;">Partners</h2>
+	<h2 style="text-align: center;">Sponsors</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
   <section class="articles">
-    {#each partner_entries as [name,company]}
+    {#each sponsor_entries as [name,company]}
       <article>
         <div>
           <figure>
@@ -43,10 +43,10 @@
 </div>
 <br/>
 <div class="section">
-	<h2 style="text-align: center;">Sponsors</h2>
+	<h2 style="text-align: center;">Partners</h2>
 	<div class="flex"><div style="width: 50%;"><hr /></div></div>
   <section class="articles">
-    {#each sponsor_entries as [name,company]}
+    {#each partner_entries as [name,company]}
       <article>
         <div>
           <figure>
