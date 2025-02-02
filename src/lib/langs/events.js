@@ -1,5 +1,26 @@
 const eventData = [
     {
+        "title": "Edu Session",
+        "location": "UC Connan",
+        "date": "2025-02-01",
+        "time": "18:00:00",
+        "url": "/events/gbm"
+    },
+    {
+        "title": "GBM",
+        "location": "UC Danforth",
+        "date": "2025-01-25",
+        "time": "14:00:00",
+        "url": "/events/gbm"
+    },
+    {
+        "title": "Club Fair",
+        "location": "Wiegand Gym",
+        "date": "2025-01-22",
+        "time": "14:00:00",
+        "url": "https://tartanconnect.cmu.edu/poker/club_signup"
+    },
+    {
         "title": "Fall Main Event (Day 2)",
         "location": "TEP 3808",
         "date": "2024-11-10",
