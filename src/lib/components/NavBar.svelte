@@ -56,7 +56,7 @@
 				><i class="fa-brands fa-youtube" /></a
 			>
 			<a
-				href="https://www.instagram.com/carnegiepokerclub/"
+				href="https://www.instagram.com/cmupokerclub/"
 				style="font-size: 20px;padding-right:0;margin-right:0;"
 				><i class="fa-brands fa-instagram" /></a
 			>
