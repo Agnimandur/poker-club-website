@@ -36,7 +36,7 @@
 			</p>
 			<p>
 				<b>Instagram <i class="fa-brands fa-instagram" />: </b><a
-					href="https://www.instagram.com/carnegiepokerclub/">@carnegiepokerclub</a
+					href="https://www.instagram.com/cmupokerclub/">@cmuepokerclub</a
 				><br />
 			</p>
 			<p>
